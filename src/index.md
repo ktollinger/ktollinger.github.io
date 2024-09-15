@@ -96,29 +96,34 @@ secure communication), later electronic banking system OfficeLine.
 
 ### Language
 
-• Czech - native
-• English - fluent
+- Czech - native
+- English - fluent
 
 ### Programming languages
 
-• Java, PHP
-• Server side scripting languages
+- Java, PHP
+- Server side scripting languages
 
 ### Web technologies
 
-• HTML, CSS, JavaScript
-• WS, WS-Security, REST, SOAP
+- HTML, CSS, JavaScript
+- WS, WS-Security, REST, SOAP
 
 ### XML Technologies
-• XML, DTD, XML Schema, XPath, XSLT, XML-FO
-Java & Java Enterprise Edition (JEE)
-• Servlets, JSP
-• JDBC, JPA
-• Spring, Guice
-• JUnit, EasyMock
-• Maven, Ant
-• Eclipse, Intellij IDEA, NetBeans, Oracle JDeveloper
-Version management
+
+- XML, DTD, XML Schema, XPath, XSLT, XML-FO
+
+### Java & Java Enterprise Edition (JEE)
+
+- Servlets, JSP
+- JDBC, JPA
+- Spring, Guice
+- JUnit, EasyMock
+- Maven, Ant
+- Eclipse, Intellij IDEA, NetBeans, Oracle JDeveloper
+
+### Version management
+
 • Git, Subversion
 Cryptography
 • XML Signature, PKCS#7, PKCS#12, PKI
@@ -139,15 +144,18 @@ Methodology
 
 ## Educations
 
-1984-1988 Střední průmyslová škola strojní a elektrotechnická obor Elektrotechnika.
-Trainings
-When What Where
-2021 Android Development Masterclass Udemy, course
-2017 Oracle Java Certification Udemy, course
-2015 AngularJS Angular.cz, course
-2015 JavaEE 6 Application Development GOPAS, course
-2013 Google Web Toolkit – advanced Traintime, course
-2013 Google Web Toolkit – basic Traintime, course
-2012 EJB 3.1 – Making Components Effective Traintime, course
-2012 Workshops Facilitation Konsens, course
-2006 UML Modelling LBMS, course
+- 1984-1988 Střední průmyslová škola strojní a elektrotechnická obor Elektrotechnika.
+
+## Trainings
+
+| When | What                                    | Where             |
+| ---- | --------------------------------------- | ----------------- |
+| 2021 | Android Development Masterclass         | Udemy, course     |
+| 2017 | Oracle Java Certification Udemy, course | Udemy, course     |
+| 2015 | AngularJS Angular.cz                    | course            |
+| 2015 | JavaEE 6 Application Development        | GOPAS, course     |
+| 2013 | Google Web Toolkit – advanced           | Traintime, course |
+| 2013 | Google Web Toolkit – basic              | Traintime, course |
+| 2012 | EJB 3.1 – Making Components Effective   | Traintime, course |
+| 2012 | Workshops Facilitation                  | Konsens, course   |
+| 2006 | UML Modelling                           | LBMS, course      |
