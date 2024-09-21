@@ -1,5 +1,5 @@
 ---
-title: Kamil Tollinger - Resume
+title: Kamil Tollinger
 address: Praha, Česká republika, CZ
 phone: 420 602 278 282
 email: kamil.tollinger@gmail.com
