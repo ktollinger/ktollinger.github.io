@@ -1,15 +1,18 @@
 ---
+title: Kamil Tollinger - Resume
+address: Praha, Česká republika, CZ
+phone: 420 602 278 282
+email: kamil.tollinger@gmail.com
+linked: https://www.linkedin.com/in/ktollinger/
 ---
-
-# Kamil Tollinger - Resume
 
 Senior Java Developer, Analyst
 
 ## Profile
 
-Experienced developer for cross-platform environments with a particular focus on
-server side Java development and use of related technologies. Participated in
-important critical business solutions including banking backend systems.
+Experienced developer for cross-platform environments with a particular focus
+on server side Java development and use of related technologies. Participated
+in important critical business solutions including banking backend systems.
 
 - Strong analytical and problem solving skills
 - Quick learner who enjoys keeping current with new projects
@@ -21,6 +24,9 @@ important critical business solutions including banking backend systems.
 ## Selected projects
 
 ### DocumentSigning, Komerční banka, a.s. (2021-2024)
+
+- Member of Agile (Scrum) team - Role: developer, technical support, production support
+- Technologies: Java, Spring, REST, SOAP, Postgres SQL, K8S, Microservices
 
 ### CESS/CPT, Česká spořitelna, a.s. (2016-2021)
 
@@ -34,8 +40,9 @@ data and many (~70) Spring Batch jobs/applications for evaluating client fees an
 
 Spring Boot CLI application pro performing incremental backup of user data from Google
 Cloud domain.
-• Responsibility: Architecture design, Data model design, Development
-• Technologies: Java, Spring, Spring Boot, Google Cloud Services
+
+- Responsibility: Architecture design, Data model design, Development
+- Technologies: Java, Spring, Spring Boot, Google Cloud Services
 
 ### SyDesk, StringData, s.r.o. (2007-2016)
 
@@ -43,19 +50,17 @@ SyDesk is application and infrastructure monitoring system. Low-level agents col
 across infrastructure, data are collected in database and processed. There are two major
 outputs/goals: notifications about actual or oncoming problem and generating (SLA)
 reports.
-• Responsibilities: Agile Team Leader (Kanban), Architect, Developer
-• Technologies: Java, PHP, Oracle SQL
-! Praha, Česká republika, CZ
-! 420 602 278 282
-" kamil.tollinger@gmail.com
-https://www.linkedin.com/in/ktollinger/
+
+- Responsibilities: Agile Team Leader (Kanban), Architect, Developer
+- Technologies: Java, PHP, Oracle SQL
 
 ### Contract Archive, Česká Spořitelna (2014-2015)
 
 Electronic Contract Archive - Workflow driven Web application for processing internal
 documents (contracts) in Google Cloud environment.
-• Responsibilities: Team Leader, Analyst, Developer
-• Technologies: Java, REST, Google AppEngine, Google Datastore, Cloud SQL,
+
+- Responsibilities: Team Leader, Analyst, Developer
+- Technologies: Java, REST, Google AppEngine, Google Datastore, Cloud SQL,
 AngularJS
 
 ### Brasil/CSKN, Česká Spořitelna (2012)
@@ -63,38 +68,47 @@ AngularJS
 Project Brasil provides a unified front-end to the branch network of CS as well as sets up a
 SOA architecture within CS. I developped the module/libary for parsing XML collected from
 cadastral register and generating printable document (PDF).
-• Responsibilities: Team Leader, Developer
-• Technologies: Java, XML/XSL/XSL-FO
+
+- Responsibilities: Team Leader, Developer
+- Technologies: Java, XML/XSL/XSL-FO
 
 ### ELBST, ČSOB, a.s. (2010)
 
 Workflow driven web application providing support for UAT tests - communication between
 internal and external teams allowing to process bugs found during UAT phase.
-• Responsibilities: Team Leader, Analyst, Developer
-• Technologies: Java, JSP, Oracle SQL
+
+- Responsibilities: Team Leader, Analyst, Developer
+- Technologies: Java, JSP, Oracle SQL
 
 ### OfficeLine, A&&L Soft, s.r.o. (1998-2007)
 
 Elecronic banking system used by about fifteen banks. Primary goal was to allow clients to
 enter payment orders and securely transfer it to the bank. Strong encryption and data
 signing was involved.
-• Responsibilities: Team Leader, Development, Implementation, Bank Systems Integration
-• Technologies: Borland Pascal.
-RSA Signing Library, Poľnobanka Slovakia (1996)
+
+- Responsibilities: Team Leader, Development, Implementation, Bank Systems Integration
+- Technologies: Borland Pascal.
+
+### RSA Signing Library, Poľnobanka Slovakia (1996)
+
 Developing of RSA Signing Library. Target system for the library was AS/400 banking
 system. Library was used as part of workflow for secure transfer between backend
 systems.
-• Responsibility: Development, Testing, Implementation
-• Technologies: ANSI C
-DES Encryption Library, A&&L Soft, s.r.o. (1994)
+
+- Responsibility: Development, Testing, Implementation
+- Technologies: ANSI C
+
+### DES Encryption Library, A&&L Soft, s.r.o. (1994)
+
 Developing of Encryption Library. Library was part of couple of our applications Metnet (for
 secure communication), later electronic banking system OfficeLine.
-• Responsibility: Development, Testing
-• Technologies: Assembler i386 / i486 / Pentium
+
+- Responsibility: Development, Testing
+- Technologies: Assembler i386 / i486 / Pentium
 
 ## Knowledge summary
 
-### Language
+### Languages
 
 - Czech - native
 - English - fluent
@@ -124,23 +138,35 @@ secure communication), later electronic banking system OfficeLine.
 
 ### Version management
 
-• Git, Subversion
-Cryptography
-• XML Signature, PKCS#7, PKCS#12, PKI
-Databases
-• SQL, Oracle, MySQL, PostgreSQL
-Application Servers
-• Tomcat
-• Oracle WebLogic Server
-Operating systems
-• Unix / Linux - installation / administration
-Development tools
-• Nexus (Maven Artifact Repository Manager) - installation, administration
-• Hudson / Jenkins CI server - installation, administration
-• Atlassian Jira - installation, administration
-• GitBlit Git Server - installation, administration
-Methodology
-• Agile Development (Extreme Programming, Scrum, Test Driven Development)
+- Git, Subversion
+
+### Cryptography
+
+- XML Signature, PKCS#7, PKCS#12, PKI
+
+### Databases
+
+- SQL, Oracle, MySQL, PostgreSQL
+
+### Application Servers
+
+- Tomcat
+- Oracle WebLogic Server
+
+### Operating systems
+
+- Unix / Linux - installation / administration
+
+### Development tools
+
+- Nexus (Maven Artifact Repository Manager) - installation, administration
+- Hudson / Jenkins CI server - installation, administration
+- Atlassian Jira - installation, administration
+- GitBlit Git Server - installation, administration
+
+### Methodology
+
+- Agile Development (Extreme Programming, Scrum, Test Driven Development)
 
 ## Educations
 
@@ -150,6 +176,7 @@ Methodology
 
 | When | What                                    | Where             |
 | ---- | --------------------------------------- | ----------------- |
+| 2023 | SML                                     | Komerční banka    |
 | 2021 | Android Development Masterclass         | Udemy, course     |
 | 2017 | Oracle Java Certification Udemy, course | Udemy, course     |
 | 2015 | AngularJS Angular.cz                    | course            |
