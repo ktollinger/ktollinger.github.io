@@ -1,0 +1,13 @@
+:root {
+    /* generally available fonts */
+    --font-family: -apple-system, system-ui, sans-serif;
+    --font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+    --font-size-base: 16px;
+    --font-size-step: 1.2;
+    --font-size-h6: var(--font-size-base);
+    --font-size-h5: calc(var(--font-size-step) * var(--font-size-h6));
+    --font-size-h4: calc(var(--font-size-step) * var(--font-size-h5));
+    --font-size-h3: calc(var(--font-size-step) * var(--font-size-h4));
+    --font-size-h2: calc(var(--font-size-step) * var(--font-size-h3));
+    --font-size-h1: calc(var(--font-size-step) * var(--font-size-h2));
+}

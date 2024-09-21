@@ -1,4 +1,8 @@
 module.exports = function(eleventyConfig) {
+
+    // Copy all *.css resources to proper location in target site.
+    eleventyConfig.addPassthroughCopy({ "src/_assets/css": "css" });
+
     return {
       dir: {
         // Where your content lives

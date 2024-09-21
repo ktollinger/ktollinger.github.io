@@ -1,0 +1,21 @@
+.main {
+    & table {
+        border: none;
+        width: auto;
+
+        & th,
+        & thead td {
+            background-color: inherit;
+            border: none;
+            border-bottom: 2px solid hsla(0, 0%, 100%, 50%);
+            padding: 0.1rem 0.8rem;
+        }
+
+        & td {
+            border: none;
+            border-bottom: 1px solid hsla(0, 0%, 100%, 30%);
+            padding: 0.1rem 0.8rem;
+        }
+
+    }
+}

@@ -1,0 +1,16 @@
+.main {
+    & p {
+        margin-top: .4rem;
+        margin-bottom: .1rem;
+        margin-left: 0;
+        margin-right: 0;
+        line-height: 1.2;
+        text-align: justify;
+
+        &.warning,
+        &.warning {
+            color: var(--content-list-fg-warning);
+            background-color: var(--content-list-bg-warning);
+        }
+    }
+}
