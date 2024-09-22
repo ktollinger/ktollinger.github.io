@@ -4,11 +4,9 @@ description: Senior Java Developer, Analyst
 address: Praha, Česká republika, CZ
 phone: +420 602 278 282
 email: kamil.tollinger@gmail.com
-linked: https://www.linkedin.com/in/ktollinger/
+linkedin: https://www.linkedin.com/in/ktollinger/
 github: https://ktollinger.github.io/
 ---
-
-
 
 ## Profile
 
@@ -25,7 +23,11 @@ in important critical business solutions including banking backend systems.
 
 ## Selected projects
 
-### DocumentSigning, Komerční banka, a.s. (2021-2024)
+### MultiSigning, Komerční banka, a.s. (2021-2024)
+
+MultiSigning is the application responsible for orchestrating the signing of
+documents. The consumer creates a signature case, registers the documents, and
+the application guides the individual participants through the necessary steps.
 
 - Member of Agile (Scrum) team - Role: developer, technical support, production support
 - Technologies: Java, Spring, REST, SOAP, Postgres SQL, K8S, Microservices
@@ -117,7 +119,7 @@ secure communication), later electronic banking system OfficeLine.
 
 ### Programming languages
 
-- Java, PHP
+- Java
 - Server side scripting languages
 
 ### Web technologies
@@ -178,7 +180,9 @@ secure communication), later electronic banking system OfficeLine.
 
 | When | What                                    | Where             |
 | ---- | --------------------------------------- | ----------------- |
-| 2023 | SML                                     | Komerční banka    |
+| 2023 | Security Matuturity I.                  | Komerční banka    |
+| 2023 | Kotlin for Java Developers              | Udemy, course     |
+| 2023 | VueJS - The Complete Guide              | Udemy, course     |
 | 2021 | Android Development Masterclass         | Udemy, course     |
 | 2017 | Oracle Java Certification Udemy, course | Udemy, course     |
 | 2015 | AngularJS Angular.cz                    | course            |
