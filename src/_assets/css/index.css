@@ -6,17 +6,9 @@
 @import url('./layout/root.css');
 @import url('./layout/content.css');
 
-@import url('./element/a.css');
-@import url('./element/em.css');
-@import url('./element/strong.css');
-@import url('./element/scrollbar.css');
-
 @import url('./main/headings.css');
 @import url('./main/p.css');
 @import url('./main/lists.css');
-@import url('./page/blockquote.css');
 @import url('./main/tables.css');
-@import url('./page/code.css');
-@import url('./page/img.css');
 
 @import url('./shame.css');

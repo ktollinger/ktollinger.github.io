@@ -1,1 +1,35 @@
 /*shame*/
+
+.container {
+    display: flex;
+    align-items: stretch; /* Ensures both elements take the same height */
+}
+
+.metadata {
+    margin-right: 20px;
+    flex: 1; /* Takes up available space */
+
+    & .subtitle {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    & .infoline {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    & i {
+        margin-right: .3em;
+    }
+}
+
+.image-container {
+    flex-shrink: 0; /* Prevents image from shrinking */
+}
+
+.image-container img {
+    display: block;
+    height: 100%; /* Image height follows the height of the container */
+    width: auto; /* Keeps the aspect ratio of the image */
+}
