@@ -32,3 +32,10 @@
     --invalid-bg-color: hsl(0, 96%, 10%);
     --inline-code-bg-color: hsl(0, 0%, 0%);
 }
+
+@media print {
+    :root {
+        --main-fg-color: #000;
+        --main-fg-color-bright: #000;
+    }
+}

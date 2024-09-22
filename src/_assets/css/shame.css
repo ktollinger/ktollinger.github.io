@@ -2,7 +2,17 @@
 
 .container {
     display: flex;
-    align-items: stretch; /* Ensures both elements take the same height */
+    align-items: flex-start;
+}
+
+.image-container {
+    flex-shrink: 0; /* Prevents image from shrinking */
+}
+
+.image-container img {
+    display: block;
+    height: 100%; /* Image height follows the height of the container */
+    width: auto; /* Keeps the aspect ratio of the image */
 }
 
 .metadata {
@@ -22,14 +32,4 @@
     & i {
         margin-right: .3em;
     }
-}
-
-.image-container {
-    flex-shrink: 0; /* Prevents image from shrinking */
-}
-
-.image-container img {
-    display: block;
-    height: 100%; /* Image height follows the height of the container */
-    width: auto; /* Keeps the aspect ratio of the image */
 }
