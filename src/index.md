@@ -1,13 +1,14 @@
 ---
 title: Kamil Tollinger
+description: Senior Java Developer, Analyst
 address: Praha, Česká republika, CZ
-phone: 420 602 278 282
+phone: +420 602 278 282
 email: kamil.tollinger@gmail.com
 linked: https://www.linkedin.com/in/ktollinger/
 github: https://ktollinger.github.io/
 ---
 
-Senior Java Developer, Analyst
+
 
 ## Profile
 
