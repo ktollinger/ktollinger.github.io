@@ -136,9 +136,8 @@ secure communication), later electronic banking system OfficeLine.
 - Servlets, JSP
 - JDBC, JPA
 - Spring, Guice
-- JUnit, EasyMock
+- JUnit, Mockito, EasyMock
 - Maven, Ant
-- Eclipse, Intellij IDEA, NetBeans, Oracle JDeveloper
 
 ### Version management
 
@@ -151,11 +150,6 @@ secure communication), later electronic banking system OfficeLine.
 ### Databases
 
 - SQL, Oracle, MySQL, PostgreSQL
-
-### Application Servers
-
-- Tomcat
-- Oracle WebLogic Server
 
 ### Operating systems
 
@@ -180,7 +174,7 @@ secure communication), later electronic banking system OfficeLine.
 
 | When | What                                    | Where             |
 | ---- | --------------------------------------- | ----------------- |
-| 2023 | Security Matuturity I.                  | Komerční banka    |
+| 2023 | Security Matuturity, level I.           | Komerční banka    |
 | 2023 | Kotlin for Java Developers              | Udemy, course     |
 | 2023 | VueJS - The Complete Guide              | Udemy, course     |
 | 2021 | Android Development Masterclass         | Udemy, course     |
