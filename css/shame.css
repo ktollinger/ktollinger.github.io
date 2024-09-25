@@ -1,0 +1,34 @@
+/*shame*/
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.image-container img {
+    display: block;
+}
+
+.metadata {
+    margin-right: 20px;
+    flex: 1; /* Takes up available space */
+
+    & .subtitle {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    & .infoline {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    & i {
+        margin-right: .3em;
+    }
+}
+
+a, a:visited {
+    color: var(--main-fg-color);
+    text-decoration: none;
+}

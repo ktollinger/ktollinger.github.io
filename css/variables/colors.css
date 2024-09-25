@@ -1,0 +1,45 @@
+:root {
+    /* base theme colors */
+    --theme-primary-hue: 198;
+    --theme-secondary-hue: 39;
+
+    /* color palette */
+    --main-bg-color: hsl(var(--theme-primary-hue), 0%, 100%);
+    --main-fg-color: hsl(0, 0%, 0%);
+    --main-fg-color-dim: hsl(0, 0%, 50%);
+    --main-fg-color-bright: hsl(0, 0%, 0%);
+    --main-fg-color-primary: hsl(var(--theme-primary-hue), 71%, 76%);
+
+    /* semantically assigned colors */
+    --content-bg-color: var(--main-bg-color);
+    --content-heading-fg-color: var(--main-fg-color-bright);
+    --content-heading-fg-primary: var(--main-fg-color-primary);
+    
+    /* misc*/
+    --theme-content-link-fg: hsl(var(--theme-secondary-hue), 100%, 70%);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* color palette */
+        --main-bg-color: hsl(var(--theme-primary-hue), 96%, 9%);
+        --main-fg-color: hsl(0, 0%, 80%);
+        --main-fg-color-dim: hsl(0, 0%, 50%);
+        --main-fg-color-bright: hsl(0, 0%, 100%);
+        --main-fg-color-primary: hsl(var(--theme-primary-hue), 71%, 76%);
+
+        /* semantically assigned colors */
+        --content-bg-color: var(--main-bg-color);
+        --content-heading-fg-color: var(--main-fg-color-bright);
+        --content-heading-fg-primary: var(--main-fg-color-primary);
+        
+        /* misc*/
+        --theme-content-link-fg: hsl(var(--theme-secondary-hue), 100%, 70%);
+    }
+}
+
+@media print {
+    :root {
+        --main-fg-color: #000;
+    }
+}

@@ -1,0 +1,13 @@
+.main {
+    background: var(--content-bg-color);
+    min-height: 100vh;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+
+    & header {
+        margin-bottom: 1.5rem;
+    }
+}
