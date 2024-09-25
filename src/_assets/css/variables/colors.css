@@ -4,38 +4,42 @@
     --theme-secondary-hue: 39;
 
     /* color palette */
-    --main-bg-color: hsl(var(--theme-primary-hue), 96%, 9%);
-    --main-fg-color: hsl(0, 0%, 80%);
+    --main-bg-color: hsl(var(--theme-primary-hue), 0%, 100%);
+    --main-fg-color: hsl(0, 0%, 0%);
     --main-fg-color-dim: hsl(0, 0%, 50%);
-    --main-fg-color-bright: hsl(0, 0%, 100%);
-    --main-fg-color-primary: hsl(198, 71%, 76%);
-    --main-bg-color-warning: hsl(30, 71%, 16%);
-    --main-fg-color-bright: hsl(0, 0%, 100%);
+    --main-fg-color-bright: hsl(0, 0%, 0%);
+    --main-fg-color-primary: hsl(var(--theme-primary-hue), 71%, 76%);
 
     /* semantically assigned colors */
     --content-bg-color: var(--main-bg-color);
-    --sidebar-bg-color: hsl(var(--theme-primary-hue), 90%, 5%);
     --content-heading-fg-color: var(--main-fg-color-bright);
     --content-heading-fg-primary: var(--main-fg-color-primary);
-    --color-blockquote-line: var(--main-fg-color-dim);
-    --color-blockquote-text: var(--main-fg-color-dim);
-    --content-list-bg-warning: var(--main-bg-color-warning);
-    --content-list-fg-warning: var(--main-fg-color-warning);
-    --opaque-bg-for-transparent-images: hsl(30, 71%, 90%);
     
-
     /* misc*/
-    --theme-content-strong-fg: var(--main-fg-color-bright);
     --theme-content-link-fg: hsl(var(--theme-secondary-hue), 100%, 70%);
-    --theme-scrollbar-thumb: hsl(var(--theme-secondary-hue), 100%, 70%);
-    --theme-breadcrumb-active: var(--main-fg-color-bright);
-    --invalid-bg-color: hsl(0, 96%, 10%);
-    --inline-code-bg-color: hsl(0, 0%, 0%);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* color palette */
+        --main-bg-color: hsl(var(--theme-primary-hue), 96%, 9%);
+        --main-fg-color: hsl(0, 0%, 80%);
+        --main-fg-color-dim: hsl(0, 0%, 50%);
+        --main-fg-color-bright: hsl(0, 0%, 100%);
+        --main-fg-color-primary: hsl(var(--theme-primary-hue), 71%, 76%);
+
+        /* semantically assigned colors */
+        --content-bg-color: var(--main-bg-color);
+        --content-heading-fg-color: var(--main-fg-color-bright);
+        --content-heading-fg-primary: var(--main-fg-color-primary);
+        
+        /* misc*/
+        --theme-content-link-fg: hsl(var(--theme-secondary-hue), 100%, 70%);
+    }
 }
 
 @media print {
     :root {
         --main-fg-color: #000;
-        --main-fg-color-bright: #000;
     }
 }

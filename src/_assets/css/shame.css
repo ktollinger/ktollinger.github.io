@@ -5,14 +5,8 @@
     align-items: flex-start;
 }
 
-.image-container {
-    flex-shrink: 0; /* Prevents image from shrinking */
-}
-
 .image-container img {
     display: block;
-    height: 100%; /* Image height follows the height of the container */
-    width: auto; /* Keeps the aspect ratio of the image */
 }
 
 .metadata {
@@ -32,4 +26,9 @@
     & i {
         margin-right: .3em;
     }
+}
+
+a, a:visited {
+    color: var(--main-fg-color);
+    text-decoration: none;
 }
