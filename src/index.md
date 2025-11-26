@@ -1,188 +1,198 @@
 ---
 title: Kamil Tollinger
-description: Senior Java Developer, Analyst
+description: Senior backendový vývojář (Java, Spring, mikroslužby)
 address: Praha, Česká republika, CZ
 phone: +420 602 278 282
 email: kamil.tollinger@gmail.com
 linkedin: https://www.linkedin.com/in/ktollinger/
 github: https://ktollinger.github.io/
+lang: cs
 ---
 
-## Profile
+<div class="cv-layout">
+  <div class="cv-layout__main">
 
-Experienced developer for cross-platform environments with a particular focus
-on server side Java development and use of related technologies. Participated
-in important critical business solutions including banking backend systems.
+## Profil
 
-- Strong analytical and problem solving skills
-- Quick learner who enjoys keeping current with new projects
-- Ability to work independently and as a team member
-- Handle crisis situations in calm and capable manner
-- Ability to use multiple programming languages and operating environments
-- Experience with financial sector (e-banking)
+Zkušený backendový vývojář pro multiplatformní prostředí se zaměřením na server‑side vývoj
+v Javě, Springu a mikroslužbové architektuře. Podílel jsem se na důležitých kritických
+business řešeních, včetně bankovních backend systémů, a na jejich dlouhodobém produkčním
+provozu a podpoře. Aktivně využívám moderní AI nástroje pro zvýšení efektivity vývoje a
+kvality kódu.
 
-## Selected projects
+- Silné analytické a problémově orientované myšlení
+- Rychlé učení, rád se seznamuji s novými technologiemi a projekty
+- Schopnost samostatné práce i práce v týmu
+- Schopnost zvládat krizové situace klidně a strukturovaně
+- Schopnost používat více programovacích jazyků a operačních prostředí
+- Zkušenosti z finančního sektoru (e‑banking)
 
-### MultiSigning, Komerční banka, a.s. (2021-2024)
+## Vybrané projekty
 
-MultiSigning is the application responsible for orchestrating the signing of
-documents. The consumer creates a signature case, registers the documents, and
-the application guides the individual participants through the necessary steps.
+### MultiSigning, Komerční banka, a.s. (2021–2025)
 
-- Member of Agile (Scrum) team - Role: developer, technical support, production support
-- Technologies: Java, Spring, REST, SOAP, Postgres SQL, K8S, Microservices
+MultiSigning je rozsáhlá mikroslužbová aplikace pro orchestraci podepisování dokumentů.
+Uživatelský systém vytvoří podpisový případ, zaregistruje dokumenty a aplikace následně
+provede jednotlivé účastníky potřebnými kroky až k finálnímu podepsání.
 
-### CESS/CPT, Česká spořitelna, a.s. (2016-2021)
+- Full‑time vývojář v Komerční bance od roku 2021, práce v DevOps týmu
+- Hlavní náplň: vývoj nových funkcí, údržba a technická podpora produkčního prostředí
+- Zaměření na backend (BFF a business komponenty) v mikroslužbové architektuře (Kubernetes)
+- Denní práce s technologiemi: Java JDK 17, Spring Boot 3.3, REST (Jersey), Kafka, PostgreSQL
+- CI/CD a provozní nástroje: Jenkins, ArgoCD
+- Vývojové nástroje: IntelliJ IDEA, Git
+- Spolupráce s komponentami psanými v Kotlinu (čtení a drobné úpravy existujícího kódu)
+- Absolvovaný bezpečnostní kurz s testem umožňujícím posuzovat dopady změn před nasazením
 
-Customer Pricing Tool is configuration database, set of tools for managing configuration
-data and many (~70) Spring Batch jobs/applications for evaluating client fees and benefits.
+### Osobní finanční aplikace – web (2023–2025)
 
-- Member of Agile (Scrum) team - Role: developer, technical support, production support
-- Technologies: Java, Spring, Spring Batch, REST, SOAP, Oracle SQL
+Souběžně s pracovními projekty vyvíjím malou webovou aplikaci pro osobní účetnictví a
+plánování rozpočtů. Aplikace má několik obrazovek a pracuje s přibližně deseti tabulkami
+v databázi.
+
+- Role: hlavní autor a architekt řešení
+- Backend: PostgreSQL, Java (JDK 17 → 21), Quarkus 3.29, REST API, JWT autentizace
+- Frontend: TypeScript, Vue 3, Pinia
+- Dokumentace: VitePress
+- Cíl: osvojit si nové technologie a vybudovat praktický nástroj pro správu osobních financí
+
+### Finanční plánovač – Android aplikace (2024)
+
+Jednoduchá Android aplikace s několika obrazovkami pro měsíční finanční plánování.
+
+- Role: hlavní autor a architekt řešení
+- Technologie: Android SDK 14, Kotlin 2.0, Room, Jetpack Compose
+- Cíl: naučit se moderní Kotlin/Android stack a mít praktický nástroj pro osobní finanční plánování
+
+### CESS/CPT, Česká spořitelna, a.s. (2016–2021)
+
+Customer Pricing Tool je konfigurační databáze a sada nástrojů pro správu konfiguračních
+dat a zhruba 70 Spring Batch úloh/aplikací používaných pro výpočet poplatků a benefitů
+klientů.
+
+- Člen agilního (Scrum) týmu – role: vývojář, technická podpora, podpora provozu
+- Technologie: Java, Spring, Spring Batch, REST, SOAP, Oracle SQL
 
 ### Cloud Data Backup Tool, Česká spořitelna, a.s. (2015)
 
-Spring Boot CLI application pro performing incremental backup of user data from Google
-Cloud domain.
+Spring Boot CLI nástroj pro inkrementální zálohování uživatelských dat z Google Cloud domény.
+Zodpovědný za návrh architektury, datového modelu i implementace (Java, Spring Boot, Google Cloud Services).
 
-- Responsibility: Architecture design, Data model design, Development
-- Technologies: Java, Spring, Spring Boot, Google Cloud Services
+### SyDesk, StringData, s.r.o. (2007–2016)
 
-### SyDesk, StringData, s.r.o. (2007-2016)
+SyDesk je systém pro monitoring aplikací a infrastruktury. Nízkoúrovňoví agenti sbírají
+data napříč infrastrukturou, která jsou ukládána do databáze a dále zpracovávána. Hlavními
+výstupy jsou notifikace o aktuálních či blížících se problémech a generování SLA reportů.
 
-SyDesk is application and infrastructure monitoring system. Low-level agents collects data
-across infrastructure, data are collected in database and processed. There are two major
-outputs/goals: notifications about actual or oncoming problem and generating (SLA)
-reports.
+- Odpovědnosti: Agile Team Leader (Kanban), architekt, vývojář
+- Technologie: Java, PHP, Oracle SQL
 
-- Responsibilities: Agile Team Leader (Kanban), Architect, Developer
-- Technologies: Java, PHP, Oracle SQL
+### Contract Archive, Česká spořitelna, a.s. (2014–2015)
 
-### Contract Archive, Česká Spořitelna (2014-2015)
+Elektronický archiv smluv a workflow aplikace pro zpracování interních dokumentů v prostředí
+Google Cloud. Vedoucí malého týmu, analýza a vývoj řešení (Java, REST, Google AppEngine,
+Google Datastore, Cloud SQL, AngularJS).
 
-Electronic Contract Archive - Workflow driven Web application for processing internal
-documents (contracts) in Google Cloud environment.
+### Brasil/CSKN, Česká spořitelna, a.s. (2012)
 
-- Responsibilities: Team Leader, Analyst, Developer
-- Technologies: Java, REST, Google AppEngine, Google Datastore, Cloud SQL,
-AngularJS
-
-### Brasil/CSKN, Česká Spořitelna (2012)
-
-Project Brasil provides a unified front-end to the branch network of CS as well as sets up a
-SOA architecture within CS. I developped the module/libary for parsing XML collected from
-cadastral register and generating printable document (PDF).
-
-- Responsibilities: Team Leader, Developer
-- Technologies: Java, XML/XSL/XSL-FO
+Součást projektu Brasil – jednotný front‑end pro pobočkovou síť a zavádění SOA architektury
+v rámci banky. Vyvíjel jsem modul pro parsování XML z katastru nemovitostí a generování
+tisknutelných PDF dokumentů (Java, XML, XSLT).
 
 ### ELBST, ČSOB, a.s. (2010)
 
-Workflow driven web application providing support for UAT tests - communication between
-internal and external teams allowing to process bugs found during UAT phase.
+Workflow aplikace pro podporu UAT testů a komunikaci mezi interními a externími týmy.
+Analýza, vývoj a podpora (Java, JSP, Oracle SQL).
 
-- Responsibilities: Team Leader, Analyst, Developer
-- Technologies: Java, JSP, Oracle SQL
+### Starší projekty (1994–2007)
 
-### OfficeLine, A&&L Soft, s.r.o. (1998-2007)
+Elektronické bankovnictví OfficeLine pro zhruba patnáct bank – zadávání platebních příkazů a
+bezpečný přenos do banky, včetně šifrování a elektronického podepisování dat (vedoucí týmu,
+vývoj, implementace, integrace bankovních systémů).
 
-Elecronic banking system used by about fifteen banks. Primary goal was to allow clients to
-enter payment orders and securely transfer it to the bank. Strong encryption and data
-signing was involved.
+Vývoj šifrovacích a podpisových knihoven pro bankovní systémy (DES, RSA) – součást workflow
+pro bezpečnou komunikaci mezi backend systémy.
 
-- Responsibilities: Team Leader, Development, Implementation, Bank Systems Integration
-- Technologies: Borland Pascal.
+  </div>
+  <div class="cv-layout__sidebar">
 
-### RSA Signing Library, Poľnobanka Slovakia (1996)
+## Shrnutí znalostí
 
-Developing of RSA Signing Library. Target system for the library was AS/400 banking
-system. Library was used as part of workflow for secure transfer between backend
-systems.
+### Jazyky
 
-- Responsibility: Development, Testing, Implementation
-- Technologies: ANSI C
+- Čeština – rodilý mluvčí
+- Angličtina – plynně
 
-### DES Encryption Library, A&&L Soft, s.r.o. (1994)
+### Backend a integrační technologie
 
-Developing of Encryption Library. Library was part of couple of our applications Metnet (for
-secure communication), later electronic banking system OfficeLine.
+- Java (JDK 8–21)
+- Spring / Spring Boot (včetně Spring Batch)
+- Quarkus (REST backend a mikroslužby)
+- REST (Jersey), SOAP, WS‑Security
+- Kafka
+- Mikroslužbová architektura, Kubernetes
 
-- Responsibility: Development, Testing
-- Technologies: Assembler i386 / i486 / Pentium
+### Frontend a webové technologie
 
-## Knowledge summary
+- HTML, CSS, JavaScript, TypeScript
+- Vue 3, Pinia
+- VitePress (dokumentace)
 
-### Languages
+### Databáze a perzistence
 
-- Czech - native
-- English - fluent
-
-### Programming languages
-
-- Java
-- Server side scripting languages
-
-### Web technologies
-
-- HTML, CSS, JavaScript
-- WS, WS-Security, REST, SOAP
-
-### XML Technologies
-
-- XML, DTD, XML Schema, XPath, XSLT, XML-FO
-
-### Java & Java Enterprise Edition (JEE)
-
-- Servlets, JSP
+- PostgreSQL, Oracle, MySQL, SQL
 - JDBC, JPA
-- Spring, Guice
+
+### Programovací jazyky a platformy
+
+- Java (primární jazyk)
+- Kotlin (čtení a údržba existujícího kódu v produkčních systémech a Android aplikacích)
+
+### XML a související technologie
+
+- XML, XML Schema, XPath, XSLT (včetně generování PDF z XML)
+
+### DevOps, nástroje a správa verzí
+
+- Git
+- Jenkins, ArgoCD, Nexus (Maven Artifact Repository Manager)
+- Atlassian Jira – uživatelsky i administrace
+
+### Testování a kvalita
+
 - JUnit, Mockito, EasyMock
-- Maven, Ant
+- Test Driven Development (TDD)
 
-### Version management
+### AI-asistovaný vývoj
 
-- Git, Subversion
+- Aktivní využívání nástrojů typu GitHub Copilot / Windsurf při vývoji a refaktoringu kódu
+- Schopnost psát přesné prompty a vést větší refaktoringy pomocí AI při zachování čitelného a konzistentního kódu
 
-### Cryptography
+### Kryptografie
 
 - XML Signature, PKCS#7, PKCS#12, PKI
 
-### Databases
+### Operační systémy
 
-- SQL, Oracle, MySQL, PostgreSQL
+- Unix / Linux – instalace / administrace
 
-### Operating systems
+### Metodiky
 
-- Unix / Linux - installation / administration
+- Agilní vývoj (Extreme Programming, Scrum)
 
-### Development tools
+## Vzdělání
 
-- Nexus (Maven Artifact Repository Manager) - installation, administration
-- Hudson / Jenkins CI server - installation, administration
-- Atlassian Jira - installation, administration
-- GitBlit Git Server - installation, administration
+- 1984–1988 Střední průmyslová škola strojní a elektrotechnická, obor Elektrotechnika
 
-### Methodology
+## Školení
 
-- Agile Development (Extreme Programming, Scrum, Test Driven Development)
+- Security Maturity, level I (Komerční banka 2023)
+- Kotlin for Java Developers (Udemy 2023)
+- VueJS - The Complete Guide (Udemy 2023)
+- Android Development Masterclass (Udemy 2021)
+- Oracle Java Certification (Udemy 2017)
+- AngularJS (Angular.cz 2015)
+- JavaEE 6 Application Development (GOPAS 2015)
 
-## Educations
-
-- 1984-1988 Střední průmyslová škola strojní a elektrotechnická obor Elektrotechnika.
-
-## Trainings
-
-| When | What                                    | Where             |
-| ---- | --------------------------------------- | ----------------- |
-| 2023 | Security Matuturity, level I.           | Komerční banka    |
-| 2023 | Kotlin for Java Developers              | Udemy, course     |
-| 2023 | VueJS - The Complete Guide              | Udemy, course     |
-| 2021 | Android Development Masterclass         | Udemy, course     |
-| 2017 | Oracle Java Certification Udemy, course | Udemy, course     |
-| 2015 | AngularJS Angular.cz                    | course            |
-| 2015 | JavaEE 6 Application Development        | GOPAS, course     |
-| 2013 | Google Web Toolkit – advanced           | Traintime, course |
-| 2013 | Google Web Toolkit – basic              | Traintime, course |
-| 2012 | EJB 3.1 – Making Components Effective   | Traintime, course |
-| 2012 | Workshops Facilitation                  | Konsens, course   |
-| 2006 | UML Modelling                           | LBMS, course      |
+  </div>
+</div>

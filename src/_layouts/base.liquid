@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ lang | default: 'en' }}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,9 +22,22 @@
   <body>
   <div class="root">
     <div class="main">
+      <div class="lang-switch lang-switch--corner">
+        <div class="toggle">
+          {% if lang == 'cs' %}
+          <span class="toggle__option toggle__option--active">CZ</span>
+          <a href="{{ '/en/' | url }}" class="toggle__option">EN</a>
+          {% elsif lang == 'en' %}
+          <a href="{{ '/' | url }}" class="toggle__option">CZ</a>
+          <span class="toggle__option toggle__option--active">EN</span>
+          {% endif %}
+        </div>
+      </div>
       <div class="container">
         <div class="metadata">
-          <h1>{{ title | default: page.fileSlug }}</h1>
+          <div class="metadata__header">
+            <h1>{{ title | default: page.fileSlug }}</h1>
+          </div>
           <div class="subtitle">{{ description }}</div>
           <div class="infoline"><i class="fa-solid fa-phone fa-fw"></i> {{ phone }}</div>
           <div class="infoline"><i class="fa-solid fa-map-location-dot fa-fw"></i> {{ address }}</div>
@@ -32,7 +45,7 @@
           <div class="infoline"><i class="fa-brands fa-linkedin fa-fw"></i> <a href="{{ linkedin }}">{{ linkedin }}</a> </div>
         </div>
         <div class="image-container">
-            <img src="img/kamil.jpg" width="200" height="200" alt="Portrait Image">
+            <img src="{{ '/img/kamil.jpg' | url }}" width="200" height="200" alt="Portrait Image">
         </div>
       </div>    
 {{ content }}

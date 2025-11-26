@@ -14,3 +14,9 @@
     max-width: 72ch;
     margin: 0 auto;
 }
+
+@media (min-width: 900px) {
+    .root {
+        max-width: 120ch;
+    }
+}

@@ -43,3 +43,33 @@
         --main-fg-color: #000;
     }
 }
+
+:root[data-theme="light"] {
+    /* explicit light theme overrides */
+    --main-bg-color: hsl(var(--theme-primary-hue), 0%, 100%);
+    --main-fg-color: hsl(0, 0%, 0%);
+    --main-fg-color-dim: hsl(0, 0%, 50%);
+    --main-fg-color-bright: hsl(0, 0%, 0%);
+    --main-fg-color-primary: hsl(var(--theme-primary-hue), 71%, 76%);
+
+    --content-bg-color: var(--main-bg-color);
+    --content-heading-fg-color: var(--main-fg-color-bright);
+    --content-heading-fg-primary: var(--main-fg-color-primary);
+
+    --theme-content-link-fg: hsl(var(--theme-secondary-hue), 100%, 70%);
+}
+
+:root[data-theme="dark"] {
+    /* explicit dark theme overrides */
+    --main-bg-color: hsl(var(--theme-primary-hue), 96%, 9%);
+    --main-fg-color: hsl(0, 0%, 80%);
+    --main-fg-color-dim: hsl(0, 0%, 50%);
+    --main-fg-color-bright: hsl(0, 0%, 100%);
+    --main-fg-color-primary: hsl(var(--theme-primary-hue), 71%, 76%);
+
+    --content-bg-color: var(--main-bg-color);
+    --content-heading-fg-color: var(--main-fg-color-bright);
+    --content-heading-fg-primary: var(--main-fg-color-primary);
+
+    --theme-content-link-fg: hsl(var(--theme-secondary-hue), 100%, 70%);
+}
