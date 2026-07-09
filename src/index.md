@@ -40,6 +40,7 @@ provede jednotlivé účastníky potřebnými kroky až k finálnímu podepsán�
 - Zaměření na backend (BFF a business komponenty) v mikroslužbové architektuře (Kubernetes)
 - Denní práce s technologiemi: Java JDK 17, Spring Boot 3.3, REST (Jersey), Kafka, PostgreSQL
 - CI/CD a provozní nástroje: Jenkins, ArgoCD
+- Návrh a implementace automatických regresních testů BFF/BC služeb (Mocha/Chai) pro ověřování změn před nasazením
 - Vývojové nástroje: IntelliJ IDEA, Git
 - Spolupráce s komponentami psanými v Kotlinu (čtení a drobné úpravy existujícího kódu)
 - Absolvovaný bezpečnostní kurz s testem umožňujícím posuzovat dopady změn před nasazením

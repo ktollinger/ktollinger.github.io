@@ -40,6 +40,7 @@ application then guides all participants through the necessary steps up to final
 - Backend‑oriented role (BFF and business components) in a microservices architecture (Kubernetes)
 - Day‑to‑day technologies: Java JDK 17, Spring Boot 3.3, REST (Jersey), Kafka, PostgreSQL
 - CI/CD and operations: Jenkins, ArgoCD
+- Design and implementation of automated regression tests for BFF/BC services (Mocha/Chai) to verify changes before production deployment
 - Tooling: IntelliJ IDEA, Git
 - Cooperation with components written in Kotlin (reading and minor changes in existing code)
 - Completed security training and certification for assessing impact of changes before production deployment
