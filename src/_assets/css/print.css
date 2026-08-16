@@ -1,0 +1,54 @@
+@media print {
+  /* Global reset for print */
+  :root {
+    --main-bg-color: #fff !important;
+    --main-fg-color: #1a1a1a !important;
+    --main-fg-color-dim: #666 !important;
+    --main-fg-color-bright: #000 !important;
+    --main-fg-color-primary: #2b6cb0 !important;
+    --content-bg-color: #fff !important;
+    --content-heading-fg-color: #000 !important;
+    font-size: 11pt !important;
+  }
+
+  /* Hide UI controls */
+  .controls-corner,
+  .btn-print,
+  .print-mode-selector {
+    display: none !important;
+  }
+
+  /* Optimize layout for A4 */
+  .root {
+    max-width: 100% !important;
+  }
+
+  .cv-layout {
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) !important;
+    gap: 1rem !important;
+  }
+
+  /* Page breaks */
+  h2, h3 {
+    break-after: avoid;
+  }
+
+  /* Web CV link as footer */
+  .main::after {
+    content: "Full CV: https://ktollinger.github.io/";
+    display: block;
+    margin-top: 2rem;
+    font-size: 9pt;
+    color: #666;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding-top: 0.5rem;
+  }
+
+  /* Compact mode: hide older projects */
+  html.print-compact .cv-layout__main h3:nth-of-type(n+5),
+  html.print-compact .cv-layout__main h3:nth-of-type(n+5) ~ p,
+  html.print-compact .cv-layout__main h3:nth-of-type(n+5) ~ ul {
+    display: none !important;
+  }
+}

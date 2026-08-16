@@ -1,11 +1,11 @@
 ---
 title: Kamil Tollinger
-description: Senior Backend Engineer (Java, Spring, Microservices)
+description: Senior Backend Software Engineer · Technical Analyst · Solution Architect
 address: Praha, Czech Republic, CZ
 phone: +420 602 278 282
 email: kamil.tollinger@gmail.com
 linkedin: https://www.linkedin.com/in/ktollinger/
-github: https://ktollinger.github.io/
+github: https://github.com/ktollinger
 lang: en
 ---
 
@@ -14,11 +14,11 @@ lang: en
 
 ## Profile
 
-Experienced backend engineer for cross‑platform environments with a particular focus on
-Java, Spring and microservices architectures. Participated in important critical business
-solutions including banking backend systems and their long‑term production operation and
-support. Actively using modern AI tools to increase development efficiency and code
-quality.
+Senior software engineer with over 20 years of experience building critical business
+systems, primarily in the banking and financial sector. Focused on server‑side
+development in Java and microservices architecture, with a strong overlap into
+analysis, solution architecture and quality assurance. Actively using modern AI
+tools to increase development efficiency and code quality.
 
 - Strong analytical and problem solving skills
 - Quick learner who enjoys keeping current with new projects
@@ -38,11 +38,10 @@ application then guides all participants through the necessary steps up to final
 - Full‑time developer in Komerční banka since 2021, working in a DevOps team
 - Main focus: implementation of new features and maintenance/production support
 - Backend‑oriented role (BFF and business components) in a microservices architecture (Kubernetes)
-- Day‑to‑day technologies: Java JDK 17, Spring Boot 3.3, REST (Jersey), Kafka, PostgreSQL
+- Day‑to‑day technologies: Java 25 (LTS), Spring Boot 3.5, REST (Jersey), Kafka, PostgreSQL
 - CI/CD and operations: Jenkins, ArgoCD
 - Design and implementation of automated regression tests for BFF/BC services (Mocha/Chai) to verify changes before production deployment
 - Tooling: IntelliJ IDEA, Git
-- Cooperation with components written in Kotlin (reading and minor changes in existing code)
 - Completed security training and certification for assessing impact of changes before production deployment
 
 ### Personal finance web application (side project, 2023–2025)

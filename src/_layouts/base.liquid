@@ -4,26 +4,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
-    <head>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     
     <title>{{ title | default: page.fileSlug }}</title>
-    <style>
-      .material-symbols-outlined {
-        font-variation-settings:
-        'FILL' 0,
-        'wght' 400,
-        'GRAD' 0,
-        'opsz' 24
-      }
-    </style>
+
+    <!-- Anti-FOUC: set theme before render -->
+    <script>
+      (function() {
+        var t = localStorage.getItem('cv-theme') ||
+          (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', t);
+      })();
+    </script>
   </head>
   <body>
   <div class="root">
     <div class="main">
-      <div class="lang-switch lang-switch--corner">
-        <div class="toggle">
+      <div class="controls-corner">
+        <div class="toggle toggle--lang">
           {% if lang == 'cs' %}
           <span class="toggle__option toggle__option--active">CZ</span>
           <a href="{{ '/en/' | url }}" class="toggle__option">EN</a>
@@ -32,6 +33,15 @@
           <span class="toggle__option toggle__option--active">EN</span>
           {% endif %}
         </div>
+
+        <button class="toggle toggle--theme" id="theme-toggle" aria-label="Toggle theme">
+          <span class="toggle__option" data-theme-option="light">☀️</span>
+          <span class="toggle__option" data-theme-option="dark">🌙</span>
+        </button>
+
+        <button class="btn-print" id="print-btn" aria-label="Download PDF">
+          <i class="fa-solid fa-file-pdf fa-fw"></i>
+        </button>
       </div>
       <div class="container">
         <div class="metadata">
@@ -51,5 +61,7 @@
 {{ content }}
     </div>
   </div>
+  <script src="{{ '/js/theme.js' | url }}"></script>
+  <script src="{{ '/js/print.js' | url }}"></script>
   </body>
 </html>

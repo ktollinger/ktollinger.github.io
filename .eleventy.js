@@ -5,6 +5,7 @@ module.exports = function(eleventyConfig) {
 
     // Copy all image resources to proper location in target site.
     eleventyConfig.addPassthroughCopy({ "src/_assets/img": "img" });
+    eleventyConfig.addPassthroughCopy({ "src/_assets/js": "js" });
 
     return {
       dir: {

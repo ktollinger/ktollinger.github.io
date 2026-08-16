@@ -144,11 +144,33 @@ a, a:visited {
     min-width: 0;
 }
 
-.lang-switch--corner {
+.controls-corner {
     position: absolute;
     top: 0.75rem;
     right: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     font-size: 0.85rem;
+}
+
+.btn-print {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 1px solid var(--main-fg-color-dim);
+    border-radius: 999px;
+    color: var(--main-fg-color-dim);
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.85em;
+    transition: color 0.2s, border-color 0.2s;
+}
+
+.btn-print:hover {
+    color: var(--main-fg-color);
+    border-color: var(--main-fg-color);
 }
 
 @media (max-width: 900px) {
@@ -166,7 +188,7 @@ a, a:visited {
         display: none;
     }
 
-    .lang-switch--corner {
+    .controls-corner {
         display: none;
     }
 }

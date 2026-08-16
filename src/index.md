@@ -1,11 +1,11 @@
 ---
 title: Kamil Tollinger
-description: Senior backendový vývojář (Java, Spring, mikroslužby)
+description: Senior Backend Software Engineer · Technical Analyst · Solution Architect
 address: Praha, Česká republika, CZ
 phone: +420 602 278 282
 email: kamil.tollinger@gmail.com
 linkedin: https://www.linkedin.com/in/ktollinger/
-github: https://ktollinger.github.io/
+github: https://github.com/ktollinger
 lang: cs
 ---
 
@@ -14,11 +14,11 @@ lang: cs
 
 ## Profil
 
-Zkušený backendový vývojář pro multiplatformní prostředí se zaměřením na server‑side vývoj
-v Javě, Springu a mikroslužbové architektuře. Podílel jsem se na důležitých kritických
-business řešeních, včetně bankovních backend systémů, a na jejich dlouhodobém produkčním
-provozu a podpoře. Aktivně využívám moderní AI nástroje pro zvýšení efektivity vývoje a
-kvality kódu.
+Senior software engineer s více než 20 lety praxe ve vývoji kritických business systémů,
+především v bankovním a finančním sektoru. Zaměřuji se na server‑side vývoj v Javě
+a mikroslužbové architektuře, s přesahem do oblasti analýzy, návrhu architektury
+a zajišťování kvality. Aktivně využívám moderní AI nástroje pro zvýšení efektivity
+vývoje a kvality kódu.
 
 - Silné analytické a problémově orientované myšlení
 - Rychlé učení, rád se seznamuji s novými technologiemi a projekty
@@ -38,11 +38,10 @@ provede jednotlivé účastníky potřebnými kroky až k finálnímu podepsán�
 - Full‑time vývojář v Komerční bance od roku 2021, práce v DevOps týmu
 - Hlavní náplň: vývoj nových funkcí, údržba a technická podpora produkčního prostředí
 - Zaměření na backend (BFF a business komponenty) v mikroslužbové architektuře (Kubernetes)
-- Denní práce s technologiemi: Java JDK 17, Spring Boot 3.3, REST (Jersey), Kafka, PostgreSQL
+- Denní práce s technologiemi: Java 25 (LTS), Spring Boot 3.5, REST (Jersey), Kafka, PostgreSQL
 - CI/CD a provozní nástroje: Jenkins, ArgoCD
 - Návrh a implementace automatických regresních testů BFF/BC služeb (Mocha/Chai) pro ověřování změn před nasazením
 - Vývojové nástroje: IntelliJ IDEA, Git
-- Spolupráce s komponentami psanými v Kotlinu (čtení a drobné úpravy existujícího kódu)
 - Absolvovaný bezpečnostní kurz s testem umožňujícím posuzovat dopady změn před nasazením
 
 ### Osobní finanční aplikace – web (2023–2025)
