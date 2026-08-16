@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,7 +40,7 @@
           <span class="toggle__option" data-theme-option="dark">🌙</span>
         </button>
 
-        <button class="btn-print" id="print-btn" aria-label="Download PDF">
+        <button class="btn-print" id="print-btn" title="Vytisknout PDF / Print PDF" aria-label="Download PDF">
           <i class="fa-solid fa-file-pdf fa-fw"></i>
         </button>
       </div>
@@ -53,6 +54,7 @@
           <div class="infoline"><i class="fa-solid fa-map-location-dot fa-fw"></i> {{ address }}</div>
           <div class="infoline"><i class="fa-regular fa-envelope fa-fw"></i> {{ email }}</div>
           <div class="infoline"><i class="fa-brands fa-linkedin fa-fw"></i> <a href="{{ linkedin }}">{{ linkedin }}</a> </div>
+          <div class="infoline"><i class="fa-solid fa-globe fa-fw"></i> <a href="https://ktollinger.github.io/">ktollinger.github.io</a></div>
         </div>
         <div class="image-container">
             <img src="{{ '/img/kamil.jpg' | url }}" width="200" height="200" alt="Portrait Image">
@@ -61,6 +63,25 @@
 {{ content }}
     </div>
   </div>
+
+  <dialog id="print-dialog" class="print-dialog">
+    <form method="dialog">
+      {% if lang == 'cs' %}
+      <h3 style="margin-top: 0; margin-bottom: 0.5rem;">Volba formátu</h3>
+      <p style="margin-bottom: 2rem;">Kterou verzi životopisu chcete vytisknout?</p>
+      {% else %}
+      <h3 style="margin-top: 0; margin-bottom: 0.5rem;">Print format</h3>
+      <p style="margin-bottom: 2rem;">Which version of the CV do you want to print?</p>
+      {% endif %}
+      <div class="print-dialog-buttons">
+        <button value="cancel" class="btn-cancel">{% if lang == 'cs' %}Zrušit{% else %}Cancel{% endif %}</button>
+        <div style="flex: 1"></div>
+        <button value="full" class="btn-secondary">{% if lang == 'cs' %}Plná verze{% else %}Full version{% endif %}</button>
+        <button value="compact" class="btn-primary">{% if lang == 'cs' %}Kompaktní (1 strana){% else %}Compact (1 page){% endif %}</button>
+      </div>
+    </form>
+  </dialog>
+
   <script src="{{ '/js/theme.js' | url }}"></script>
   <script src="{{ '/js/print.js' | url }}"></script>
   </body>

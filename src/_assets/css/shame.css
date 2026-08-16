@@ -145,13 +145,12 @@ a, a:visited {
 }
 
 .controls-corner {
-    position: absolute;
-    top: 0.75rem;
-    right: 0.75rem;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     gap: 0.5rem;
     font-size: 0.85rem;
+    margin-bottom: 1rem;
 }
 
 .btn-print {
@@ -171,6 +170,67 @@ a, a:visited {
 .btn-print:hover {
     color: var(--main-fg-color);
     border-color: var(--main-fg-color);
+}
+
+.print-dialog {
+    margin: auto; /* Nutné kvůli reset.css, který nastavuje všem prvkům margin: 0 */
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    border-radius: 12px;
+    background: var(--main-bg-color);
+    color: var(--main-fg-color);
+    padding: 2rem;
+    max-width: 450px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.print-dialog::backdrop {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.print-dialog-buttons {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.print-dialog button {
+    background: transparent;
+    border: 1px solid var(--main-fg-color-dim);
+    color: var(--main-fg-color);
+    border-radius: 6px;
+    padding: 0.6rem 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.print-dialog .btn-primary {
+    background: var(--main-fg-color);
+    color: var(--main-bg-color);
+    border-color: var(--main-fg-color);
+}
+
+.print-dialog .btn-primary:hover {
+    opacity: 0.85;
+    transform: translateY(-1px);
+}
+
+.print-dialog .btn-secondary:hover {
+    background: var(--main-fg-color);
+    color: var(--main-bg-color);
+}
+
+.print-dialog .btn-cancel {
+    border-color: transparent;
+    color: var(--main-fg-color-dim);
+}
+
+.print-dialog .btn-cancel:hover {
+    color: var(--main-fg-color);
+    background: rgba(128, 128, 128, 0.1);
 }
 
 @media (max-width: 900px) {

@@ -1,18 +1,22 @@
 document.getElementById('print-btn').addEventListener('click', function () {
-  var lang = document.documentElement.lang;
-  var isCS = lang === 'cs';
+  var dialog = document.getElementById('print-dialog');
+  dialog.showModal();
+});
 
-  var choice = confirm(
-    isCS
-      ? 'Kompaktní verze (1 strana)?\n\nOK = kompaktní, Zrušit = plná verze'
-      : 'Compact version (1 page)?\n\nOK = compact, Cancel = full version'
-  );
+document.getElementById('print-dialog').addEventListener('close', function () {
+  var choice = this.returnValue;
 
-  if (choice) {
+  if (choice === 'cancel' || choice === '') {
+    return;
+  }
+
+  if (choice === 'compact') {
     document.documentElement.classList.add('print-compact');
   } else {
     document.documentElement.classList.remove('print-compact');
   }
 
-  window.print();
+  setTimeout(function() {
+    window.print();
+  }, 100);
 });
