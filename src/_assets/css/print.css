@@ -1,48 +1,154 @@
 @media print {
+  @page {
+    size: A4;
+    margin: 1.5cm 1.5cm;
+  }
+
   /* Global reset for print */
   :root {
     --main-bg-color: #fff !important;
-    --main-fg-color: #1a1a1a !important;
-    --main-fg-color-dim: #666 !important;
+    --main-fg-color: #222 !important;
+    --main-fg-color-dim: #555 !important;
     --main-fg-color-bright: #000 !important;
-    --main-fg-color-primary: #2b6cb0 !important;
+    --main-fg-color-primary: #1a5699 !important;
     --content-bg-color: #fff !important;
     --content-heading-fg-color: #000 !important;
-    font-size: 11pt !important;
+    font-size: 10.5pt !important;
+  }
+
+  body {
+    background-color: #fff !important;
+    color: #222 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .main {
+    padding: 0 !important;
+    min-height: auto !important;
+    margin: 0 !important;
   }
 
   /* Hide UI controls */
   .controls-corner,
+  .sidebar-controls,
   .btn-print,
-  .print-mode-selector {
+  .print-mode-selector,
+  .print-dialog {
     display: none !important;
   }
 
   /* Optimize layout for A4 */
   .root {
     max-width: 100% !important;
+    margin: 0 !important;
   }
 
   .cv-layout {
-    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) !important;
-    gap: 1rem !important;
+    display: grid !important;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1.2fr) !important;
+    gap: 2rem !important;
+    align-items: start !important;
+  }
+
+  /* Image optimization for print */
+  .image-container img {
+    width: 130px !important;
+    height: 130px !important;
+    margin-top: 0 !important;
+  }
+
+  .metadata__header h1 {
+    font-size: 24pt !important;
+    margin-bottom: 0.1em !important;
+  }
+
+  .metadata {
+    margin-right: 1rem !important;
+  }
+
+  .subtitle {
+    font-size: 12pt !important;
+    margin-bottom: 0.5em !important;
+  }
+
+  .infoline {
+    font-size: 9.5pt !important;
+    margin: 0.2em 0 !important;
+  }
+
+  /* Adjust vertical spacing to save space */
+  h2 {
+    margin-top: 1.2em !important;
+    margin-bottom: 0.4em !important;
+    padding-bottom: 0.2em !important;
+    border-bottom: 1px solid #ddd !important;
+  }
+  
+  h3 {
+    margin-top: 1em !important;
+    margin-bottom: 0.2em !important;
+  }
+
+  p, li {
+    line-height: 1.35 !important;
+  }
+
+  p {
+    margin-top: 0.3em !important;
+    margin-bottom: 0.3em !important;
+  }
+
+  /* Lists */
+  ul {
+    padding-left: 1.2rem !important;
+    margin-top: 0.3em !important;
+    margin-bottom: 0.8em !important;
+  }
+
+  li {
+    margin-bottom: 0.2em !important;
+  }
+
+  /* Links */
+  a {
+    color: var(--main-fg-color-primary) !important;
+    text-decoration: none !important;
+  }
+
+  a[href^="http"]:not(.infoline a)::after {
+    content: " (" attr(href) ")";
+    font-size: 85%;
+    color: var(--main-fg-color-dim) !important;
+    word-break: break-all;
   }
 
   /* Page breaks */
   h2, h3 {
     break-after: avoid;
+    page-break-after: avoid;
+  }
+  
+  ul, p, .image-container {
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
 
   /* Web CV link as footer */
   .main::after {
-    content: "Full CV: https://ktollinger.github.io/";
+    content: "Zobrazit plnou verzi online na: https://ktollinger.github.io/";
     display: block;
     margin-top: 2rem;
     font-size: 9pt;
-    color: #666;
+    color: #777;
     text-align: center;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #ddd;
     padding-top: 0.5rem;
+    break-before: avoid;
+  }
+
+  html[lang="en"] .main::after {
+    content: "View full online version at: https://ktollinger.github.io/";
   }
 
   /* Compact mode: hide older projects */

@@ -238,17 +238,3 @@ a, a:visited {
         grid-template-columns: minmax(0, 1fr);
     }
 }
-
-@media print {
-    .cv-layout {
-        grid-template-columns: minmax(0, 1fr);
-    }
-
-    .sidebar-controls {
-        display: none;
-    }
-
-    .controls-corner {
-        display: none;
-    }
-}
