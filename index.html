@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <title>Kamil Tollinger</title>
+
+    <!-- Anti-FOUC: set theme before render -->
+    <script>
+      (function() {
+        var t = localStorage.getItem('cv-theme') ||
+          (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', t);
+      })();
+    </script>
+  </head>
+  <body>
+  <div class="root">
+    <div class="main">
+      <div class="controls-corner">
+        <div class="toggle toggle--lang">
+          
+          <span class="toggle__option toggle__option--active">CZ</span>
+          <a href="/en/" class="toggle__option">EN</a>
+          
+        </div>
+
+        <button class="toggle toggle--theme" id="theme-toggle" aria-label="Toggle theme">
+          <span class="toggle__option" data-theme-option="light">☀️</span>
+          <span class="toggle__option" data-theme-option="dark">🌙</span>
+        </button>
+
+        <button class="btn-print" id="print-btn" title="Vytisknout PDF / Print PDF" aria-label="Download PDF">
+          <i class="fa-solid fa-file-pdf fa-fw"></i>
+        </button>
+      </div>
+      <div class="container">
+        <div class="metadata">
+          <div class="metadata__header">
+            <h1>Kamil Tollinger</h1>
+          </div>
+          <div class="subtitle">Senior Backend Software Engineer · Technical Analyst · Solution Architect</div>
+          <div class="infoline"><i class="fa-solid fa-phone fa-fw"></i> +420 602 278 282</div>
+          <div class="infoline"><i class="fa-solid fa-map-location-dot fa-fw"></i> Praha, Česká republika, CZ</div>
+          <div class="infoline"><i class="fa-regular fa-envelope fa-fw"></i> kamil.tollinger@gmail.com</div>
+          <div class="infoline"><i class="fa-brands fa-linkedin fa-fw"></i> <a href="https://www.linkedin.com/in/ktollinger/">https://www.linkedin.com/in/ktollinger/</a> </div>
+          <div class="infoline"><i class="fa-solid fa-globe fa-fw"></i> <a href="https://ktollinger.github.io/">ktollinger.github.io</a></div>
+        </div>
+        <div class="image-container">
+            <img src="/img/kamil.jpg" width="200" height="200" alt="Portrait Image">
+        </div>
+      </div>    
+<div class="cv-layout">
+  <div class="cv-layout__main">
+<h2>Profil</h2>
+<p>Senior software engineer s více než 20 lety praxe ve vývoji kritických business systémů,
+především v bankovním a finančním sektoru. Zaměřuji se na server‑side vývoj v Javě
+a mikroslužbové architektuře, s přesahem do oblasti analýzy, návrhu architektury
+a zajišťování kvality. Aktivně využívám moderní AI nástroje pro zvýšení efektivity
+vývoje a kvality kódu.</p>
+<ul>
+<li>Silné analytické a problémově orientované myšlení</li>
+<li>Rychlé učení, rád se seznamuji s novými technologiemi a projekty</li>
+<li>Schopnost samostatné práce i práce v týmu</li>
+<li>Schopnost zvládat krizové situace klidně a strukturovaně</li>
+<li>Schopnost používat více programovacích jazyků a operačních prostředí</li>
+<li>Zkušenosti z finančního sektoru (e‑banking)</li>
+</ul>
+<h2>Vybrané projekty</h2>
+<h3>MultiSigning, Komerční banka, a.s. (2021–2025)</h3>
+<p>MultiSigning je rozsáhlá mikroslužbová aplikace pro orchestraci podepisování dokumentů.
+Uživatelský systém vytvoří podpisový případ, zaregistruje dokumenty a aplikace následně
+provede jednotlivé účastníky potřebnými kroky až k finálnímu podepsání.</p>
+<ul>
+<li>Full‑time vývojář v Komerční bance od roku 2021, práce v DevOps týmu</li>
+<li>Hlavní náplň: vývoj nových funkcí, údržba a technická podpora produkčního prostředí</li>
+<li>Zaměření na backend (BFF a business komponenty) v mikroslužbové architektuře (Kubernetes)</li>
+<li>Denní práce s technologiemi: Java 25 (LTS), Spring Boot 3.5, REST (Jersey), Kafka, PostgreSQL</li>
+<li>CI/CD a provozní nástroje: Jenkins, ArgoCD</li>
+<li>Návrh a implementace automatických regresních testů BFF/BC služeb (Mocha/Chai) pro ověřování změn před nasazením</li>
+<li>Vývojové nástroje: IntelliJ IDEA, Git</li>
+<li>Absolvovaný bezpečnostní kurz s testem umožňujícím posuzovat dopady změn před nasazením</li>
+</ul>
+<h3>Osobní finanční aplikace – web (2023–2025)</h3>
+<p>Souběžně s pracovními projekty vyvíjím malou webovou aplikaci pro osobní účetnictví a
+plánování rozpočtů. Aplikace má několik obrazovek a pracuje s přibližně deseti tabulkami
+v databázi.</p>
+<ul>
+<li>Role: hlavní autor a architekt řešení</li>
+<li>Backend: PostgreSQL, Java (JDK 17 → 21), Quarkus 3.29, REST API, JWT autentizace</li>
+<li>Frontend: TypeScript, Vue 3, Pinia</li>
+<li>Dokumentace: VitePress</li>
+<li>Cíl: osvojit si nové technologie a vybudovat praktický nástroj pro správu osobních financí</li>
+</ul>
+<h3>Finanční plánovač – Android aplikace (2024)</h3>
+<p>Jednoduchá Android aplikace s několika obrazovkami pro měsíční finanční plánování.</p>
+<ul>
+<li>Role: hlavní autor a architekt řešení</li>
+<li>Technologie: Android SDK 14, Kotlin 2.0, Room, Jetpack Compose</li>
+<li>Cíl: naučit se moderní Kotlin/Android stack a mít praktický nástroj pro osobní finanční plánování</li>
+</ul>
+<h3>CESS/CPT, Česká spořitelna, a.s. (2016–2021)</h3>
+<p>Customer Pricing Tool je konfigurační databáze a sada nástrojů pro správu konfiguračních
+dat a zhruba 70 Spring Batch úloh/aplikací používaných pro výpočet poplatků a benefitů
+klientů.</p>
+<ul>
+<li>Člen agilního (Scrum) týmu – role: vývojář, technická podpora, podpora provozu</li>
+<li>Technologie: Java, Spring, Spring Batch, REST, SOAP, Oracle SQL</li>
+</ul>
+<h3>Cloud Data Backup Tool, Česká spořitelna, a.s. (2015)</h3>
+<p>Spring Boot CLI nástroj pro inkrementální zálohování uživatelských dat z Google Cloud domény.
+Zodpovědný za návrh architektury, datového modelu i implementace (Java, Spring Boot, Google Cloud Services).</p>
+<h3>SyDesk, StringData, s.r.o. (2007–2016)</h3>
+<p>SyDesk je systém pro monitoring aplikací a infrastruktury. Nízkoúrovňoví agenti sbírají
+data napříč infrastrukturou, která jsou ukládána do databáze a dále zpracovávána. Hlavními
+výstupy jsou notifikace o aktuálních či blížících se problémech a generování SLA reportů.</p>
+<ul>
+<li>Odpovědnosti: Agile Team Leader (Kanban), architekt, vývojář</li>
+<li>Technologie: Java, PHP, Oracle SQL</li>
+</ul>
+<h3>Contract Archive, Česká spořitelna, a.s. (2014–2015)</h3>
+<p>Elektronický archiv smluv a workflow aplikace pro zpracování interních dokumentů v prostředí
+Google Cloud. Vedoucí malého týmu, analýza a vývoj řešení (Java, REST, Google AppEngine,
+Google Datastore, Cloud SQL, AngularJS).</p>
+<h3>Brasil/CSKN, Česká spořitelna, a.s. (2012)</h3>
+<p>Součást projektu Brasil – jednotný front‑end pro pobočkovou síť a zavádění SOA architektury
+v rámci banky. Vyvíjel jsem modul pro parsování XML z katastru nemovitostí a generování
+tisknutelných PDF dokumentů (Java, XML, XSLT).</p>
+<h3>ELBST, ČSOB, a.s. (2010)</h3>
+<p>Workflow aplikace pro podporu UAT testů a komunikaci mezi interními a externími týmy.
+Analýza, vývoj a podpora (Java, JSP, Oracle SQL).</p>
+<h3>Starší projekty (1994–2007)</h3>
+<p>Elektronické bankovnictví OfficeLine pro zhruba patnáct bank – zadávání platebních příkazů a
+bezpečný přenos do banky, včetně šifrování a elektronického podepisování dat (vedoucí týmu,
+vývoj, implementace, integrace bankovních systémů).</p>
+<p>Vývoj šifrovacích a podpisových knihoven pro bankovní systémy (DES, RSA) – součást workflow
+pro bezpečnou komunikaci mezi backend systémy.</p>
+  </div>
+  <div class="cv-layout__sidebar">
+<h2>Shrnutí znalostí</h2>
+<h3>Jazyky</h3>
+<ul>
+<li>Čeština – rodilý mluvčí</li>
+<li>Angličtina – plynně</li>
+</ul>
+<h3>Backend a integrační technologie</h3>
+<ul>
+<li>Java (JDK 8–21)</li>
+<li>Spring / Spring Boot (včetně Spring Batch)</li>
+<li>Quarkus (REST backend a mikroslužby)</li>
+<li>REST (Jersey), SOAP, WS‑Security</li>
+<li>Kafka</li>
+<li>Mikroslužbová architektura, Kubernetes</li>
+</ul>
+<h3>Frontend a webové technologie</h3>
+<ul>
+<li>HTML, CSS, JavaScript, TypeScript</li>
+<li>Vue 3, Pinia</li>
+<li>VitePress (dokumentace)</li>
+</ul>
+<h3>Databáze a perzistence</h3>
+<ul>
+<li>PostgreSQL, Oracle, MySQL, SQL</li>
+<li>JDBC, JPA</li>
+</ul>
+<h3>Programovací jazyky a platformy</h3>
+<ul>
+<li>Java (primární jazyk)</li>
+<li>Kotlin (čtení a údržba existujícího kódu v produkčních systémech a Android aplikacích)</li>
+</ul>
+<h3>XML a související technologie</h3>
+<ul>
+<li>XML, XML Schema, XPath, XSLT (včetně generování PDF z XML)</li>
+</ul>
+<h3>DevOps, nástroje a správa verzí</h3>
+<ul>
+<li>Git</li>
+<li>Jenkins, ArgoCD, Nexus (Maven Artifact Repository Manager)</li>
+<li>Atlassian Jira – uživatelsky i administrace</li>
+</ul>
+<h3>Testování a kvalita</h3>
+<ul>
+<li>JUnit, Mockito, EasyMock</li>
+<li>Test Driven Development (TDD)</li>
+</ul>
+<h3>AI-asistovaný vývoj</h3>
+<ul>
+<li>Aktivní využívání nástrojů typu GitHub Copilot / Windsurf při vývoji a refaktoringu kódu</li>
+<li>Schopnost psát přesné prompty a vést větší refaktoringy pomocí AI při zachování čitelného a konzistentního kódu</li>
+</ul>
+<h3>Kryptografie</h3>
+<ul>
+<li>XML Signature, PKCS#7, PKCS#12, PKI</li>
+</ul>
+<h3>Operační systémy</h3>
+<ul>
+<li>Unix / Linux – instalace / administrace</li>
+</ul>
+<h3>Metodiky</h3>
+<ul>
+<li>Agilní vývoj (Extreme Programming, Scrum)</li>
+</ul>
+<h2>Vzdělání</h2>
+<ul>
+<li>1984–1988 Střední průmyslová škola strojní a elektrotechnická, obor Elektrotechnika</li>
+</ul>
+<h2>Školení</h2>
+<ul>
+<li>
+<p>Security Maturity, level I (Komerční banka 2023)</p>
+</li>
+<li>
+<p>Kotlin for Java Developers (Udemy 2023)</p>
+</li>
+<li>
+<p>VueJS - The Complete Guide (Udemy 2023)</p>
+</li>
+<li>
+<p>Android Development Masterclass (Udemy 2021)</p>
+</li>
+<li>
+<p>Oracle Java Certification (Udemy 2017)</p>
+</li>
+<li>
+<p>AngularJS (Angular.cz 2015)</p>
+</li>
+<li>
+<p>JavaEE 6 Application Development (GOPAS 2015)</p>
+</div>
+</li>
+</ul>
+</div>
+
+    </div>
+  </div>
+
+  <dialog id="print-dialog" class="print-dialog">
+    <form method="dialog">
+      
+      <h3 style="margin-top: 0; margin-bottom: 0.5rem;">Volba formátu</h3>
+      <p style="margin-bottom: 2rem;">Kterou verzi životopisu chcete vytisknout?</p>
+      
+      <div class="print-dialog-buttons">
+        <button value="cancel" class="btn-cancel">Zrušit</button>
+        <div style="flex: 1"></div>
+        <button value="full" class="btn-secondary">Plná verze</button>
+        <button value="compact" class="btn-primary">Kompaktní (1 strana)</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="/js/theme.js"></script>
+  <script src="/js/print.js"></script>
+  </body>
+</html>

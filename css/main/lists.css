@@ -1,0 +1,25 @@
+.main {
+
+    & ul,
+    & ol {
+        margin: .5em 0;
+        padding: .4em 0 .4em 1em;
+        border-radius: .5em;
+        line-height: 1.5;
+    }
+
+    & ol ul,
+    & ol ol,
+    & ul ul,
+    & ul ol {
+        margin: 0;
+        padding-top: 0;
+    }
+
+    & ul.warning,
+    & ol.warning {
+        color: var(--content-list-fg-warning);
+        background-color: var(--content-list-bg-warning);
+    }
+
+}
