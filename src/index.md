@@ -36,13 +36,13 @@ Uživatelský systém vytvoří podpisový případ, zaregistruje dokumenty a ap
 provede jednotlivé účastníky potřebnými kroky až k finálnímu podepsání.
 
 - Full‑time vývojář v Komerční bance od roku 2021, práce v DevOps týmu
-- Hlavní náplň: vývoj nových funkcí, údržba a technická podpora produkčního prostředí
-- Zaměření na backend (BFF a business komponenty) v mikroslužbové architektuře (Kubernetes)
-- Denní práce s technologiemi: Java 25 (LTS), Spring Boot 3.5, REST (Jersey), Kafka, PostgreSQL
-- CI/CD a provozní nástroje: Jenkins, ArgoCD
-- Návrh a implementace automatických regresních testů BFF/BC služeb (Mocha/Chai) pro ověřování změn před nasazením
-- Vývojové nástroje: IntelliJ IDEA, Git
-- Absolvovaný bezpečnostní kurz s testem umožňujícím posuzovat dopady změn před nasazením
+- Vývoj mikroslužeb (Java, Spring Boot) s architekturou vycházející z **Domain-Driven Design (DDD)**
+- Implementace backendových vrstev: **BC (Business Components)** s napojením na PostgreSQL, Redis, Kafku a **BFF (Backend for Frontend)** pro integraci s Angular SPA
+- Zabezpečení API endpointů pomocí **JWT tokenů** (technické i uživatelské) a integrace s **OAuth Proxy**
+- Správa infrastruktury a kontejnerů v prostředí **OpenShift / Kubernetes (PaaS)** za pomoci **Helm/YAML** manifestů
+- Pokročilé **CI/CD pipelines (Jenkins, Bitbucket)**, nasazování pomocí **GitOps (ArgoCD)** a troubleshooting přes K8S dashboard
+- Agilní vývoj s využitím **Trunk Based Development** – automatické zakládání dynamických *Review prostředí* v K8S pro každý Pull Request
+- Návrh a implementace automatizovaných *post-deployment* regresních testů (TypeScript / Mocha)
 
 ### Osobní finanční aplikace – web (2023–2025)
 
@@ -129,8 +129,10 @@ pro bezpečnou komunikaci mezi backend systémy.
 - Spring / Spring Boot (včetně Spring Batch)
 - Quarkus (REST backend a mikroslužby)
 - REST (Jersey), SOAP, WS‑Security
-- Kafka
+- Zabezpečení: OAuth 2.0, JWT tokeny
+- Kafka, Redis
 - Mikroslužbová architektura, Kubernetes
+- Architektura: Domain-Driven Design (DDD), BFF (Backend for Frontend) pattern
 
 ### Frontend a webové technologie
 
@@ -154,8 +156,10 @@ pro bezpečnou komunikaci mezi backend systémy.
 
 ### DevOps, nástroje a správa verzí
 
-- Git
-- Jenkins, ArgoCD, Nexus (Maven Artifact Repository Manager)
+- Git, Trunk Based Development
+- Jenkins, Bitbucket, Nexus (Maven Artifact Repository)
+- GitOps (ArgoCD), Helm
+- OpenShift (PaaS)
 - Atlassian Jira – uživatelsky i administrace
 
 ### Testování a kvalita
@@ -186,6 +190,8 @@ pro bezpečnou komunikaci mezi backend systémy.
 
 ## Školení
 
+- **Developing Solutions for Microsoft Azure (AZ-204)** – *probíhá (Udemy)*
+- **Microsoft Certified: Azure Fundamentals (AZ-900)** – *probíhá (Udemy)*
 - Security Maturity, level I (Komerční banka 2023)
 - Kotlin for Java Developers (Udemy 2023)
 - VueJS - The Complete Guide (Udemy 2023)
