@@ -29,7 +29,7 @@ tools to increase development efficiency and code quality.
 
 ## Selected projects
 
-### MultiSigning, Komerční banka, a.s. (2021–present)
+### MultiSigning, Komerční banka, a.s. (2021–2026)
 
 MultiSigning is a large microservices-based application responsible for orchestrating the
 signing of documents. A client system creates a signing case, registers documents and the

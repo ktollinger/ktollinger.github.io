@@ -29,7 +29,7 @@ vývoje a kvality kódu.
 
 ## Vybrané projekty
 
-### MultiSigning, Komerční banka, a.s. (2021–2025)
+### MultiSigning, Komerční banka, a.s. (2021–2026)
 
 MultiSigning je rozsáhlá mikroslužbová aplikace pro orchestraci podepisování dokumentů.
 Uživatelský systém vytvoří podpisový případ, zaregistruje dokumenty a aplikace následně
