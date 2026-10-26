@@ -124,11 +124,11 @@ part of secure transfer workflows between backend systems.
 
 ### Backend and integration technologies
 
-- Java (JDK 8–21)
+- Java (JDK 8–25)
 - Spring / Spring Boot (including Spring Batch)
 - Quarkus (REST backends and microservices)
 - REST (Jersey), SOAP, WS-Security
-- Security: OAuth 2.0, JWT tokens
+- Security: OAuth 2, JWT tokens
 - Kafka, Redis
 - Microservices architecture, Kubernetes
 - Architecture: Domain-Driven Design (DDD), BFF (Backend for Frontend) pattern

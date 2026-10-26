@@ -51,7 +51,7 @@ plánování rozpočtů. Aplikace má několik obrazovek a pracuje s přibližn�
 v databázi.
 
 - Role: hlavní autor a architekt řešení
-- Backend: PostgreSQL, Java (JDK 17 → 21), Quarkus 3.29, REST API, JWT autentizace
+- Backend: PostgreSQL, Java (JDK 17 → 25), Quarkus 3, REST API, JWT autentizace
 - Frontend: TypeScript, Vue 3, Pinia
 - Dokumentace: VitePress
 - Cíl: osvojit si nové technologie a vybudovat praktický nástroj pro správu osobních financí
@@ -125,11 +125,11 @@ pro bezpečnou komunikaci mezi backend systémy.
 
 ### Backend a integrační technologie
 
-- Java (JDK 8–21)
+- Java (JDK 8–25)
 - Spring / Spring Boot (včetně Spring Batch)
 - Quarkus (REST backend a mikroslužby)
 - REST (Jersey), SOAP, WS‑Security
-- Zabezpečení: OAuth 2.0, JWT tokeny
+- Zabezpečení: OAuth 2, JWT tokeny
 - Kafka, Redis
 - Mikroslužbová architektura, Kubernetes
 - Architektura: Domain-Driven Design (DDD), BFF (Backend for Frontend) pattern
