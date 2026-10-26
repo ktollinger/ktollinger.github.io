@@ -125,13 +125,38 @@
 
   /* Page breaks */
   h2, h3 {
-    break-after: avoid;
-    page-break-after: avoid;
+    break-after: avoid !important;
+    page-break-after: avoid !important;
+  }
+
+  /* Never leave a heading separated from its introductory text */
+  h2 + *, h3 + * {
+    break-before: avoid !important;
+    page-break-before: avoid !important;
   }
   
-  ul, p, .image-container {
-    break-inside: avoid;
-    page-break-inside: avoid;
+  /* Allow lists and paragraphs to break across pages cleanly without giant blank gaps */
+  ul {
+    break-inside: auto !important;
+    page-break-inside: auto !important;
+  }
+
+  /* Keep individual list items intact */
+  li {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  p {
+    break-inside: auto !important;
+    page-break-inside: auto !important;
+    orphans: 3 !important;
+    widows: 3 !important;
+  }
+
+  .image-container, .metadata {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
   }
 
   /* Web CV link as footer */

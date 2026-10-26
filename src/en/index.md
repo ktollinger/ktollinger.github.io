@@ -1,6 +1,6 @@
 ---
 title: Kamil Tollinger
-description: Senior Backend Software Engineer · Technical Analyst · Solution Architect
+description: Senior Backend Software Engineer · Tech Lead · Technical Analyst
 address: Praha, Czech Republic, CZ
 phone: +420 602 278 282
 email: kamil.tollinger@gmail.com
@@ -17,7 +17,7 @@ lang: en
 Senior software engineer with over 20 years of experience building critical business
 systems, primarily in the banking and financial sector. Focused on server‑side
 development in Java and microservices architecture, with a strong overlap into
-analysis, solution architecture and quality assurance. Actively using modern AI
+analysis, software architecture and quality assurance. Actively using modern AI
 tools to increase development efficiency and code quality.
 
 - Strong analytical and problem solving skills
