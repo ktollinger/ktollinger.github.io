@@ -38,23 +38,24 @@ provede jednotlivé účastníky potřebnými kroky až k finálnímu podepsán�
 - Full‑time vývojář v Komerční bance od roku 2021, práce v DevOps týmu
 - Vývoj mikroslužeb (Java, Spring Boot) s architekturou vycházející z **Domain-Driven Design (DDD)**
 - Implementace backendových vrstev: **BC (Business Components)** s napojením na PostgreSQL, Redis, Kafku a **BFF (Backend for Frontend)** pro integraci s Angular SPA
+- Spolupráce na interních sdílených/core knihovnách v **Kotlinu** (code review, připomínkování a návrhy úprav API) a jejich integrace do mikroslužeb psaných v **Javě 25 / Spring Boot**
 - Zabezpečení API endpointů pomocí **JWT tokenů** (technické i uživatelské) a integrace s **OAuth Proxy**
 - Správa infrastruktury a kontejnerů v prostředí **OpenShift / Kubernetes (PaaS)** za pomoci **Helm/YAML** manifestů
 - Pokročilé **CI/CD pipelines (Jenkins, Bitbucket)**, nasazování pomocí **GitOps (ArgoCD)** a troubleshooting přes K8S dashboard
 - Agilní vývoj s využitím **Trunk Based Development** – automatické zakládání dynamických *Review prostředí* v K8S pro každý Pull Request
 - Návrh a implementace automatizovaných *post-deployment* regresních testů (TypeScript / Mocha)
 
-### Osobní finanční aplikace – web (2023–2025)
+### Osobní finanční aplikace – web (2023–2026)
 
 Souběžně s pracovními projekty vyvíjím malou webovou aplikaci pro osobní účetnictví a
 plánování rozpočtů. Aplikace má několik obrazovek a pracuje s přibližně deseti tabulkami
-v databázi.
+v databázi. Aktuálně probíhá refaktoring a postupný přepis backendu z Javy do Kotlinu.
 
 - Role: hlavní autor a architekt řešení
-- Backend: PostgreSQL, Java (JDK 17 → 25), Quarkus 3, REST API, JWT autentizace
+- Backend: PostgreSQL, Java 25 → postupný přepis do Kotlinu, Quarkus 3, REST API, JWT autentizace
 - Frontend: TypeScript, Vue 3, Pinia
 - Dokumentace: VitePress
-- Cíl: osvojit si nové technologie a vybudovat praktický nástroj pro správu osobních financí
+- Cíl: osvojit si moderní technologie (přechod na Kotlin, Quarkus) a vybudovat praktický nástroj pro správu osobních financí
 
 ### Finanční plánovač – Android aplikace (2024)
 
@@ -126,6 +127,7 @@ pro bezpečnou komunikaci mezi backend systémy.
 ### Backend a integrační technologie
 
 - Java (JDK 8–25)
+- Kotlin (Quarkus backend, integrace knihoven)
 - Spring / Spring Boot (včetně Spring Batch)
 - Quarkus (REST backend a mikroslužby)
 - REST (Jersey), SOAP, WS‑Security
@@ -147,8 +149,8 @@ pro bezpečnou komunikaci mezi backend systémy.
 
 ### Programovací jazyky a platformy
 
-- Java (primární jazyk)
-- Kotlin (čtení a údržba existujícího kódu v produkčních systémech a Android aplikacích)
+- Java (primární jazyk, JDK 8–25)
+- Kotlin (code review a integrace sdílených knihoven v produkci, vývoj Android aplikací, migrace backendu)
 
 ### XML a související technologie
 
@@ -192,6 +194,7 @@ pro bezpečnou komunikaci mezi backend systémy.
 
 - **Developing Solutions for Microsoft Azure (AZ-204)** – *probíhá (Udemy)*
 - **Microsoft Certified: Azure Fundamentals (AZ-900)** – *probíhá (Udemy)*
+- Kotlin for Java Developers (Coursera / JetBrains 2026)
 - Security Maturity, level I (Komerční banka 2023)
 - Kotlin for Java Developers (Udemy 2023)
 - VueJS - The Complete Guide (Udemy 2023)

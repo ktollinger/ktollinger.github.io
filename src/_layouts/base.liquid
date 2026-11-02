@@ -40,7 +40,7 @@
           <span class="toggle__option" data-theme-option="dark">🌙</span>
         </button>
 
-        <button class="btn-print" id="print-btn" title="Vytisknout PDF / Print PDF" aria-label="Download PDF">
+        <button class="btn-print" id="print-btn" title="{% if lang == 'cs' %}Stáhnout PDF / Tisk{% else %}Download PDF / Print{% endif %}" aria-label="PDF">
           <i class="fa-solid fa-file-pdf fa-fw"></i>
         </button>
       </div>
@@ -67,18 +67,40 @@
   <dialog id="print-dialog" class="print-dialog">
     <form method="dialog">
       {% if lang == 'cs' %}
-      <h3 style="margin-top: 0; margin-bottom: 0.5rem;">Volba formátu</h3>
-      <p style="margin-bottom: 2rem;">Kterou verzi životopisu chcete vytisknout?</p>
-      {% else %}
-      <h3 style="margin-top: 0; margin-bottom: 0.5rem;">Print format</h3>
-      <p style="margin-bottom: 2rem;">Which version of the CV do you want to print?</p>
-      {% endif %}
-      <div class="print-dialog-buttons">
-        <button value="cancel" class="btn-cancel">{% if lang == 'cs' %}Zrušit{% else %}Cancel{% endif %}</button>
-        <div style="flex: 1"></div>
-        <button value="full" class="btn-secondary">{% if lang == 'cs' %}Plná verze{% else %}Full version{% endif %}</button>
-        <button value="compact" class="btn-primary">{% if lang == 'cs' %}Kompaktní (1 strana){% else %}Compact (1 page){% endif %}</button>
+      <h3 style="margin-top: 0; margin-bottom: 0.5rem;">Životopis v PDF</h3>
+      <p style="margin-bottom: 1.25rem;">Stáhněte si připravený PDF dokument nebo vytiskněte aktuální stránku:</p>
+
+      <div style="margin-bottom: 1.5rem;">
+        <a href="{{ '/pdf/Kamil_Tollinger_CV_CS.pdf' | url }}" download class="btn-download-pdf">
+          <i class="fa-solid fa-file-arrow-down fa-fw"></i> Stáhnout kompletní PDF (Česky)
+        </a>
       </div>
+
+      <div style="font-size: 0.85rem; color: var(--main-fg-color-dim); margin-bottom: 0.75rem;">Vlastní tisk / export z prohlížeče:</div>
+      <div class="print-dialog-buttons">
+        <button value="cancel" class="btn-cancel">Zavřít</button>
+        <div style="flex: 1"></div>
+        <button value="full" class="btn-secondary">Plná verze</button>
+        <button value="compact" class="btn-secondary">Kompaktní (1 strana)</button>
+      </div>
+      {% else %}
+      <h3 style="margin-top: 0; margin-bottom: 0.5rem;">CV in PDF</h3>
+      <p style="margin-bottom: 1.25rem;">Download the pre-generated PDF document or print the current page:</p>
+
+      <div style="margin-bottom: 1.5rem;">
+        <a href="{{ '/pdf/Kamil_Tollinger_CV_EN.pdf' | url }}" download class="btn-download-pdf">
+          <i class="fa-solid fa-file-arrow-down fa-fw"></i> Download full PDF (English)
+        </a>
+      </div>
+
+      <div style="font-size: 0.85rem; color: var(--main-fg-color-dim); margin-bottom: 0.75rem;">Custom browser print / export:</div>
+      <div class="print-dialog-buttons">
+        <button value="cancel" class="btn-cancel">Close</button>
+        <div style="flex: 1"></div>
+        <button value="full" class="btn-secondary">Full version</button>
+        <button value="compact" class="btn-secondary">Compact (1 page)</button>
+      </div>
+      {% endif %}
     </form>
   </dialog>
 

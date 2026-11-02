@@ -1,7 +1,7 @@
 @media print {
   @page {
     size: A4;
-    margin: 1.5cm 1.5cm;
+    margin: 1.2cm 1.4cm;
   }
 
   /* Global reset for print */
@@ -13,7 +13,7 @@
     --main-fg-color-primary: #1a5699 !important;
     --content-bg-color: #fff !important;
     --content-heading-fg-color: #000 !important;
-    font-size: 10.5pt !important;
+    font-size: 10pt !important;
   }
 
   body {

@@ -37,23 +37,24 @@ application then guides all participants through the necessary steps up to final
 
 - Developing microservices (Java, Spring Boot) using an architecture based on **Domain-Driven Design (DDD)**
 - Implementing backend layers: **Business Components (BC)** connected to PostgreSQL, Redis, and Kafka, alongside **Backend for Frontend (BFF)** integrating with an Angular SPA
+- Collaboration on internal shared/core libraries in **Kotlin** (code reviews, RFCs, and API design requirements) and integrating them into **Java 25 / Spring Boot** microservices
 - Securing API endpoints using **JWT tokens** (technical and user) and **OAuth Proxy** integration
 - Managing infrastructure and containers in an **OpenShift / Kubernetes (PaaS)** environment using **Helm/YAML** manifests
 - Advanced **CI/CD pipelines (Jenkins, Bitbucket)**, executing deployments via **GitOps (ArgoCD)**, and troubleshooting via the K8s dashboard
 - Applying agile practices and **Trunk Based Development**, including the automatic provisioning of dynamic *Review environments* in K8s for every Pull Request
 - Designing and implementing automated *post-deployment* regression tests (TypeScript / Mocha)
 
-### Personal finance web application (side project, 2023–2025)
+### Personal finance web application (side project, 2023–2026)
 
 In parallel to my full‑time job I am developing a small web application for personal
 accounting and budget planning. The application has several screens and works with about
-ten tables in the database.
+ten tables in the database. Currently undergoing progressive backend refactoring and migration from Java to Kotlin.
 
 - Role: main author and solution architect
-- Backend: PostgreSQL, Java (JDK 17 → 21), Quarkus 3.29, REST API, JWT authentication
+- Backend: PostgreSQL, Java 25 → progressive migration to Kotlin, Quarkus 3, REST API, JWT authentication
 - Frontend: TypeScript, Vue 3, Pinia
 - Documentation: VitePress
-- Goal: learn new technologies and build a practical tool for managing personal finances
+- Goal: learn modern technologies (transitioning to Kotlin, Quarkus) and build a practical tool for managing personal finances
 
 ### Financial planner – Android application (2024)
 
@@ -125,6 +126,7 @@ part of secure transfer workflows between backend systems.
 ### Backend and integration technologies
 
 - Java (JDK 8–25)
+- Kotlin (Quarkus backend, library integration)
 - Spring / Spring Boot (including Spring Batch)
 - Quarkus (REST backends and microservices)
 - REST (Jersey), SOAP, WS-Security
@@ -146,8 +148,8 @@ part of secure transfer workflows between backend systems.
 
 ### Programming languages and platforms
 
-- Java (primary language)
-- Kotlin (reading and maintaining existing production code and Android apps)
+- Java (primary language, JDK 8–25)
+- Kotlin (code reviews and integration of shared libraries in production, Android apps, backend migration)
 
 ### XML and related technologies
 
@@ -191,6 +193,7 @@ part of secure transfer workflows between backend systems.
 
 - **Developing Solutions for Microsoft Azure (AZ-204)** – *in progress (Udemy)*
 - **Microsoft Certified: Azure Fundamentals (AZ-900)** – *in progress (Udemy)*
+- Kotlin for Java Developers (Coursera / JetBrains 2026)
 - Security Maturity, level I (Komerční banka 2023)
 - Kotlin for Java Developers (Udemy 2023)
 - VueJS - The Complete Guide (Udemy 2023)

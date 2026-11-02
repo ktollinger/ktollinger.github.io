@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "eleventy",
+    "generate-pdf": "node scripts/generate-pdf.mjs",
     "start": "npx @11ty/eleventy --serve --port=8888 --quiet"
   },
   "repository": {

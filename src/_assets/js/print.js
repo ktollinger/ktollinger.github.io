@@ -1,22 +1,43 @@
-document.getElementById('print-btn').addEventListener('click', function () {
-  var dialog = document.getElementById('print-dialog');
-  dialog.showModal();
-});
+var printBtn = document.getElementById('print-btn');
+var printDialog = document.getElementById('print-dialog');
 
-document.getElementById('print-dialog').addEventListener('close', function () {
-  var choice = this.returnValue;
+if (printBtn && printDialog) {
+  printBtn.addEventListener('click', function () {
+    printDialog.showModal();
+  });
 
-  if (choice === 'cancel' || choice === '') {
-    return;
-  }
+  // Close when clicking outside the dialog content (backdrop)
+  printDialog.addEventListener('click', function (e) {
+    if (e.target === printDialog) {
+      printDialog.close('cancel');
+    }
+  });
 
-  if (choice === 'compact') {
-    document.documentElement.classList.add('print-compact');
-  } else {
-    document.documentElement.classList.remove('print-compact');
-  }
+  // Auto-close dialog after triggering PDF download
+  var downloadLinks = printDialog.querySelectorAll('.btn-download-pdf');
+  downloadLinks.forEach(function (link) {
+    link.addEventListener('click', function () {
+      setTimeout(function () {
+        printDialog.close('download');
+      }, 300);
+    });
+  });
 
-  setTimeout(function() {
-    window.print();
-  }, 100);
-});
+  printDialog.addEventListener('close', function () {
+    var choice = this.returnValue;
+
+    if (choice === 'cancel' || choice === 'download' || choice === '') {
+      return;
+    }
+
+    if (choice === 'compact') {
+      document.documentElement.classList.add('print-compact');
+    } else {
+      document.documentElement.classList.remove('print-compact');
+    }
+
+    setTimeout(function () {
+      window.print();
+    }, 100);
+  });
+}
