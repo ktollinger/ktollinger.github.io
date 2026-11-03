@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     
     <title>{{ title | default: page.fileSlug }}</title>
+    <meta name="build-time" content="{{ build.timestamp }}">
+    <!-- Build timestamp: {{ build.formatted }} -->
 
     <!-- Anti-FOUC: set theme before render -->
     <script>
