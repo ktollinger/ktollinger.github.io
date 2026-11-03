@@ -15,8 +15,8 @@ lang: cs
 ## Profil
 
 Senior software engineer s více než 20 lety praxe ve vývoji kritických business systémů,
-především v bankovním a finančním sektoru. Zaměřuji se na server‑side vývoj v Javě
-a mikroslužbové architektuře, s přesahem do oblasti analýzy, návrhu architektury
+především v bankovním a finančním sektoru. Zaměřuji se na server‑side vývoj v Javě a Kotlinu
+v mikroslužbové architektuře, s přesahem do oblasti analýzy, návrhu architektury
 a zajišťování kvality. Aktivně využívám moderní AI nástroje pro zvýšení efektivity
 vývoje a kvality kódu.
 

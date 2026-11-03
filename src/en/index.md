@@ -16,7 +16,7 @@ lang: en
 
 Senior software engineer with over 20 years of experience building critical business
 systems, primarily in the banking and financial sector. Focused on server‑side
-development in Java and microservices architecture, with a strong overlap into
+development in Java and Kotlin and microservices architecture, with a strong overlap into
 analysis, software architecture and quality assurance. Actively using modern AI
 tools to increase development efficiency and code quality.
 

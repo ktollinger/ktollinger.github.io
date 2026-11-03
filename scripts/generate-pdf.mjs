@@ -12,7 +12,6 @@ const __dirname = path.dirname(__filename);
 const webcvRoot = path.resolve(__dirname, '..');
 const siteDir = path.resolve(webcvRoot, '_site');
 const assetsPdfDir = path.resolve(webcvRoot, 'src/_assets/pdf');
-const cvRepoDir = path.resolve(webcvRoot, '../cv');
 
 const CHROME_PATH = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 
@@ -81,13 +80,11 @@ server.listen(0, '127.0.0.1', async () => {
       name: 'Czech CV',
       url: `http://127.0.0.1:${port}/index.html`,
       pdfName: 'Kamil_Tollinger_CV_CS.pdf',
-      cvTargetName: 'Kamil Tollinger - CS.pdf',
     },
     {
       name: 'English CV',
       url: `http://127.0.0.1:${port}/en/index.html`,
       pdfName: 'Kamil_Tollinger_CV_EN.pdf',
-      cvTargetName: 'Kamil Tollinger - EN.pdf',
     },
   ];
 
@@ -105,13 +102,6 @@ server.listen(0, '127.0.0.1', async () => {
       ]);
 
       console.log(`  -> Saved to src/_assets/pdf/${target.pdfName}`);
-
-      // Also copy to cv repo if present
-      if (fs.existsSync(cvRepoDir)) {
-        const cvTargetPath = path.join(cvRepoDir, target.cvTargetName);
-        fs.copyFileSync(targetPdfPath, cvTargetPath);
-        console.log(`  -> Synced to ~/repos/cv/${target.cvTargetName}`);
-      }
 
       // Also sync to _site/pdf
       const sitePdfDir = path.join(siteDir, 'pdf');
