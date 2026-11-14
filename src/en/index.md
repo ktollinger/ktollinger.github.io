@@ -20,12 +20,17 @@ development in Java and Kotlin and microservices architecture, with a strong ove
 analysis, software architecture and quality assurance. Actively using modern AI
 tools to increase development efficiency and code quality.
 
-- Strong analytical and problem solving skills
-- Quick learner who enjoys keeping current with new projects
-- Ability to work independently and as a team member
-- Handle crisis situations in calm and capable manner
-- Ability to use multiple programming languages and operating environments
-- Experience with financial sector (e-banking)
+- 20+ years in banking and e-banking: digital document signing, payment systems, client pricing
+- Hands-on cryptography background: implemented DES/RSA encryption and signing libraries; PKI, XML Signature, PKCS#7/#12
+- Production experience with a cloud-native stack: OpenShift/Kubernetes, GitOps (ArgoCD), Kafka, PostgreSQL
+- Team lead and architect roles on banking and monitoring products
+
+## Employment & Contract History
+
+- **2021–2026 | Senior Backend Software Engineer (Contractor / B2B)** – Komerční banka, a.s., Prague
+- **2012–2021 | Senior Java Developer & Team Lead (Contractor / B2B)** – Česká spořitelna, a.s., Prague
+- **2007–2016 | Agile Team Leader, Architect & Developer (Full-time Employee)** – StringData, s.r.o., Prague
+- **1994–2007 | Software Engineer & Team Lead** – Banking systems & cryptography (OfficeLine)
 
 ## Selected projects
 
@@ -35,14 +40,14 @@ MultiSigning is a large microservices-based application responsible for orchestr
 signing of documents. A client system creates a signing case, registers documents and the
 application then guides all participants through the necessary steps up to final signature.
 
-- Developing microservices (Java, Spring Boot) using an architecture based on **Domain-Driven Design (DDD)**
-- Implementing backend layers: **Business Components (BC)** connected to PostgreSQL, Redis, and Kafka, alongside **Backend for Frontend (BFF)** integrating with an Angular SPA
-- Collaboration on internal shared/core libraries in **Kotlin** (code reviews, RFCs, and API design requirements) and integrating them into **Java 25 / Spring Boot** microservices
-- Securing API endpoints using **JWT tokens** (technical and user) and **OAuth Proxy** integration
-- Managing infrastructure and containers in an **OpenShift / Kubernetes (PaaS)** environment using **Helm/YAML** manifests
-- Advanced **CI/CD pipelines (Jenkins, Bitbucket)**, executing deployments via **GitOps (ArgoCD)**, and troubleshooting via the K8s dashboard
-- Applying agile practices and **Trunk Based Development**, including the automatic provisioning of dynamic *Review environments* in K8s for every Pull Request
-- Designing and implementing automated *post-deployment* regression tests (TypeScript / Mocha)
+- Developed microservices (Java, Spring Boot) using an architecture based on **Domain-Driven Design (DDD)**
+- Implemented backend layers: **Business Components (BC)** connected to PostgreSQL, Redis, and Kafka, alongside a **Backend for Frontend (BFF)** integrating with an Angular SPA
+- Reviewed and contributed to internal shared/core libraries in **Kotlin** (code reviews, RFCs, API design) and integrated them into **Java 25 / Spring Boot** microservices
+- Secured API endpoints with **JWT tokens** (technical and user) and **OAuth Proxy** integration
+- Managed infrastructure and containers in an **OpenShift / Kubernetes (PaaS)** environment using **Helm/YAML** manifests
+- Maintained **CI/CD pipelines (Jenkins, Bitbucket)**, deployed via **GitOps (ArgoCD)** and troubleshot workloads via the K8s dashboard
+- Applied **Trunk Based Development**, including automatic provisioning of dynamic *Review environments* in K8s for every Pull Request
+- Designed and implemented automated *post-deployment* regression tests (TypeScript / Mocha)
 
 ### Personal finance web application (side project, 2023–2026)
 
@@ -64,12 +69,12 @@ A simple Android application with several screens for monthly financial planning
 - Technologies: Android SDK 14, Kotlin 2.0, Room, Jetpack Compose
 - Goal: learn the modern Kotlin/Android stack and create a practical tool for personal financial planning
 
-### CESS/CPT, Česká spořitelna, a.s. (2016-2021)
+### CESS/CPT, Česká spořitelna, a.s. (2016–2021)
 
-Customer Pricing Tool is configuration database, set of tools for managing configuration
-data and many (~70) Spring Batch jobs/applications for evaluating client fees and benefits.
+Customer Pricing Tool is a configuration database with a set of tools for managing configuration
+data and about 70 Spring Batch jobs/applications that calculate client fees and benefits.
 
-- Member of Agile (Scrum) team - Role: developer, technical support, production support
+- Member of an Agile (Scrum) team – role: developer, technical support, production support
 - Technologies: Java, Spring, Spring Batch, REST, SOAP, Oracle SQL
 
 ### Cloud Data Backup Tool, Česká spořitelna, a.s. (2015)
@@ -77,23 +82,22 @@ data and many (~70) Spring Batch jobs/applications for evaluating client fees an
 Spring Boot CLI tool for incremental backup of user data from a Google Cloud domain.
 Responsible for architecture, data model and implementation (Java, Spring Boot, Google Cloud Services).
 
-### SyDesk, StringData, s.r.o. (2007-2016)
+### SyDesk, StringData, s.r.o. (2007–2016)
 
-SyDesk is application and infrastructure monitoring system. Low-level agents collects data
-across infrastructure, data are collected in database and processed. There are two major
-outputs/goals: notifications about actual or oncoming problem and generating (SLA)
-reports.
+SyDesk is an application and infrastructure monitoring system. Low-level agents collect data
+across the infrastructure, which is stored in a database and processed. The two main outputs
+are notifications about current or upcoming problems and SLA reports.
 
 - Responsibilities: Agile Team Leader (Kanban), Architect, Developer
 - Technologies: Java, PHP, Oracle SQL
 
-### Contract Archive, Česká Spořitelna (2014-2015)
+### Contract Archive, Česká spořitelna, a.s. (2014–2015)
 
 Electronic Contract Archive – workflow web application for internal documents in the Google
 Cloud environment. Team lead, analysis and development (Java, REST, Google AppEngine,
 Google Datastore, Cloud SQL, AngularJS).
 
-### Brasil/CSKN, Česká Spořitelna (2012)
+### Brasil/CSKN, Česká spořitelna, a.s. (2012)
 
 Part of project Brasil – unified front-end for the branch network and introduction of SOA
 architecture within the bank. Developed a module for parsing cadastral XML data and
@@ -185,20 +189,20 @@ part of secure transfer workflows between backend systems.
 
 - Agile Development (Extreme Programming, Scrum)
 
-## Educations
+## Education
 
-- 1984-1988 Střední průmyslová škola strojní a elektrotechnická obor Elektrotechnika.
+- 1984–1988 Secondary Technical School of Mechanical and Electrical Engineering (Střední průmyslová škola strojní a elektrotechnická), Ústí nad Labem – Electrical Engineering, Maturita (high school diploma)
 
 ## Trainings
 
-- **Developing Solutions for Microsoft Azure (AZ-204)** – *in progress (Udemy)*
-- **Microsoft Certified: Azure Fundamentals (AZ-900)** – *in progress (Udemy)*
+- **Developing Solutions for Microsoft Azure (AZ-204)** – *course in progress (Udemy)*
+- **Azure Fundamentals (AZ-900)** – *exam preparation in progress (Udemy)*
 - Kotlin for Java Developers (Coursera / JetBrains 2026)
 - Security Maturity, level I (Komerční banka 2023)
 - Kotlin for Java Developers (Udemy 2023)
 - VueJS - The Complete Guide (Udemy 2023)
 - Android Development Masterclass (Udemy 2021)
-- Oracle Java Certification (Udemy 2017)
+- Java SE certification preparation course (Udemy 2017)
 - AngularJS (Angular.cz 2015)
 - JavaEE 6 Application Development (GOPAS 2015)
 

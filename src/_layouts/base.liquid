@@ -20,6 +20,10 @@
         var t = localStorage.getItem('cv-theme') ||
           (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
         document.documentElement.setAttribute('data-theme', t);
+        // ATS-friendly variant: single column, no icons/photo, system font (?ats=1)
+        if (/[?&]ats(=|&|$)/.test(location.search)) {
+          document.documentElement.classList.add('print-ats');
+        }
       })();
     </script>
   </head>

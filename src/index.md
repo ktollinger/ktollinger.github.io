@@ -20,12 +20,17 @@ v mikroslužbové architektuře, s přesahem do oblasti analýzy, návrhu archit
 a zajišťování kvality. Aktivně využívám moderní AI nástroje pro zvýšení efektivity
 vývoje a kvality kódu.
 
-- Silné analytické a problémově orientované myšlení
-- Rychlé učení, rád se seznamuji s novými technologiemi a projekty
-- Schopnost samostatné práce i práce v týmu
-- Schopnost zvládat krizové situace klidně a strukturovaně
-- Schopnost používat více programovacích jazyků a operačních prostředí
-- Zkušenosti z finančního sektoru (e‑banking)
+- 20+ let v bankovnictví a e‑bankingu: elektronické podepisování dokumentů, platební systémy, cenotvorba klientů
+- Praktická znalost kryptografie: vlastní implementace šifrovacích a podpisových knihoven (DES, RSA); PKI, XML Signature, PKCS#7/#12
+- Produkční zkušenost s cloud‑native stackem: OpenShift/Kubernetes, GitOps (ArgoCD), Kafka, PostgreSQL
+- Role vedoucího týmu a architekta na bankovních a monitorovacích produktech
+
+## Přehled zaměstnání a kontraktů
+
+- **2021–2026 | Senior Backend Software Engineer (IČO / kontrakt)** – Komerční banka, a.s., Praha
+- **2012–2021 | Senior Java Developer & Team Lead (IČO / kontrakt)** – Česká spořitelna, a.s., Praha
+- **2007–2016 | Agile Team Leader, Architect & Developer (HPP)** – StringData, s.r.o., Praha
+- **1994–2007 | Software Engineer & Team Lead** – Bankovní systémy a kryptografie (OfficeLine)
 
 ## Vybrané projekty
 
@@ -35,7 +40,7 @@ MultiSigning je rozsáhlá mikroslužbová aplikace pro orchestraci podepisován
 Uživatelský systém vytvoří podpisový případ, zaregistruje dokumenty a aplikace následně
 provede jednotlivé účastníky potřebnými kroky až k finálnímu podepsání.
 
-- Full‑time vývojář v Komerční bance od roku 2021, práce v DevOps týmu
+- Kontraktor (IČO) v Komerční bance od roku 2021, práce v DevOps týmu
 - Vývoj mikroslužeb (Java, Spring Boot) s architekturou vycházející z **Domain-Driven Design (DDD)**
 - Implementace backendových vrstev: **BC (Business Components)** s napojením na PostgreSQL, Redis, Kafku a **BFF (Backend for Frontend)** pro integraci s Angular SPA
 - Spolupráce na interních sdílených/core knihovnách v **Kotlinu** (code review, připomínkování a návrhy úprav API) a jejich integrace do mikroslužeb psaných v **Javě 25 / Spring Boot**
@@ -188,18 +193,18 @@ pro bezpečnou komunikaci mezi backend systémy.
 
 ## Vzdělání
 
-- 1984–1988 Střední průmyslová škola strojní a elektrotechnická, obor Elektrotechnika
+- 1984–1988 Střední průmyslová škola strojní a elektrotechnická, Ústí nad Labem – obor Elektrotechnika, maturita
 
 ## Školení
 
-- **Developing Solutions for Microsoft Azure (AZ-204)** – *probíhá (Udemy)*
-- **Microsoft Certified: Azure Fundamentals (AZ-900)** – *probíhá (Udemy)*
+- **Developing Solutions for Microsoft Azure (AZ-204)** – *probíhá kurz (Udemy)*
+- **Azure Fundamentals (AZ-900)** – *probíhá příprava na zkoušku (Udemy)*
 - Kotlin for Java Developers (Coursera / JetBrains 2026)
 - Security Maturity, level I (Komerční banka 2023)
 - Kotlin for Java Developers (Udemy 2023)
 - VueJS - The Complete Guide (Udemy 2023)
 - Android Development Masterclass (Udemy 2021)
-- Oracle Java Certification (Udemy 2017)
+- Přípravný kurz k certifikaci Java SE (Udemy 2017)
 - AngularJS (Angular.cz 2015)
 - JavaEE 6 Application Development (GOPAS 2015)
 

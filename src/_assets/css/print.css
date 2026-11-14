@@ -183,3 +183,33 @@
     display: none !important;
   }
 }
+
+/*
+ * ATS-friendly variant (?ats=1): single column, no icon fonts, no photo,
+ * locally installed TrueType font (web fonts end up as Type 3 in Chrome PDFs,
+ * which many ATS parsers cannot read reliably).
+ */
+html.print-ats {
+  --font-family: Arial, Helvetica, sans-serif !important;
+}
+
+html.print-ats body,
+html.print-ats .root {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+html.print-ats .cv-layout {
+  display: block !important;
+}
+
+html.print-ats .fa-solid,
+html.print-ats .fa-regular,
+html.print-ats .fa-brands,
+html.print-ats .image-container,
+html.print-ats .controls-corner {
+  display: none !important;
+}
+
+html.print-ats .main::after {
+  display: none !important;
+}

@@ -86,6 +86,16 @@ server.listen(0, '127.0.0.1', async () => {
       url: `http://127.0.0.1:${port}/en/index.html`,
       pdfName: 'Kamil_Tollinger_CV_EN.pdf',
     },
+    {
+      name: 'Czech CV (ATS)',
+      url: `http://127.0.0.1:${port}/index.html?ats=1`,
+      pdfName: 'Kamil_Tollinger_CV_CS_ATS.pdf',
+    },
+    {
+      name: 'English CV (ATS)',
+      url: `http://127.0.0.1:${port}/en/index.html?ats=1`,
+      pdfName: 'Kamil_Tollinger_CV_EN_ATS.pdf',
+    },
   ];
 
   try {
